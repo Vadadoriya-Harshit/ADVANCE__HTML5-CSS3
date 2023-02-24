@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- Methods:
+
+    get: (default)
+
+    => it is not secure
+    => limited data
+
+    post: 
+    => it is  secure
+    => unlimited data -->
+    <form method="post" action="test.html">
+
+        <!-- TEXT :<input type="text" placeholder="Enter Name" required pattern="[a-zA-Z]+" title="Only letters"><br><br> -->
+
+
+        Name :<input type="text" placeholder="Enter Name" required pattern="[a-zA-Z]{2,5}" title="min 2 and max 5 letters" name="nm"><br><br>
+
+
+
+        Email :<input type="email"><br><br>
+
+        <!-- mobile: <input type="text" placeholder="Enter Mobile" required pattern="[0-9]+" title="only digit"> -->
+
+        mobile: +91<input type="text" placeholder="Enter Mobile" required pattern="[0-9]{10}" title="10 digits">
+        
+        
+        <br><br>
+
+        Password: <input type="password" name="pwd"><br><br>
+
+        Country:
+        <select>
+            <!-- <option disabled>--- Select Your Country ---</option> -->
+
+            <option hidden>--- Select Your Country ---</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UAE</option>
+            <option>Australia</option>
+
+        </select>
+
+        <br><br>
+
+        Address:
+        <textarea rows="5" cols="50"></textarea>
+
+        <br><br>
+
+
+        Date:<input type="date"><br><br>
+
+        Gender:
+
+        <input type="radio" name="x">Male
+        <InpuT type="radio" NamE="x">Female
+        <input type="radio" name="x">Others
+
+
+        <br><br>
+
+            Languages:
+            <input type="checkbox"> Hindi
+            <input type="checkbox"> Gujarati
+            <input type="checkbox"> English
+            <input type="checkbox"> Telugu
+
+
+
+            <br><br>
+
+        Date-Time<input type="datetime-local"><br><br>
+        Color:<input type="color"><br><br>
+        Upload File<input type="file"><br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="ARE yaar">
+
+    </form>
+
+
+
+
+    
+    <!-- <table border="1">
+
+        <tr>
+            <td>Name:</td>
+            <td>Kaipan Name</td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td>x@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Mobile:</td>
+            <td>456456645</td>
+        </tr>
+
+    </table> -->
+    
+
+</body>
+</html>
