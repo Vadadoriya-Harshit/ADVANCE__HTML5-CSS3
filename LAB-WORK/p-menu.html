@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;list-style: none;}
+        .main{
+           
+        }
+        .main .dropdown .menu{
+           
+            display: inline;
+            margin-left: 20px;
+            position: relative;
+            padding: 38px 0;
+
+        }
+        .main .dropdown a{
+            /* font-size: 25px; */
+            text-decoration: none;
+        }
+        .main .menu .dropdown{
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: orange;
+          height: 150px;
+          width: 100px;
+          display: none;
+        }
+        .main .menu:hover .dropdown{
+            display: block;
+            /* margin-top: 12px; */
+        }
+        .profile{
+      width: 300px;
+      height: 199px;
+      border: 1px solid black;
+      display: inline-flex;
+      font-family: sans-serif;
+      padding-top: 20px;
+       
+    }
+    /* ------------------ */
+    a:link{
+        text-decoration: none;
+        color: black;
+    }
+    a{
+        color: black;
+    }]
+    </style>
+</head>
+<body>
+
+    <div class="main">
+                <span class="menu"><a href="#"><img src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a></span>
+                <span class="dropdown">
+                    <div class="profile">
+                        <div style=" width: 150px;border: 0px solid black;">
+                          <h4 style="margin-left: 20px;">Login/Sign up</h4>
+                           <hr style="margin-top: 12px;border-color: #f8f8f8;">
+                           <div style="margin-left: 18px;display:flex;">
+                            <ul type="none">
+                           <a href="#"><li style="margin-top: 10px;">Student Account</li></a>
+                           <a href="#"><li style="margin-top: 8px;">Seller Account</li></a>
+                            <a href="#"><li style="margin-top: 8px;">Partner Account</li></a>
+                            <a href="#"><li style="margin-top: 8px;">Listing Account</li></a></ul>
+                            </div>
+                        </div>
+                        <div style=" width: 150px;border: 0px solid black;margin-left: 21px;">
+                          <h4 style="margin-left: -1px;">My Account</h4>
+                          <hr style="margin-top: 12px;width: 100px;border-color: #f8f8f8;">
+                          <ul type="none">
+                            <a href="#"><li style="margin-top: 10px;">My Cart</li></a>
+                            <a href="#"><li style="margin-top: 8px;">My Wishlist</li></a>
+                        
+                    </div>
+                </div></span>
+    </div>
+    
+</body>
+</html>
