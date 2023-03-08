@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.hove_r{
+			width: 250px;
+			height: 250px;
+			border: 1px solid black;
+			border-radius: 25%;
+			background-color: red;
+			transition: 2s;
+
+		}
+		.hove_r:hover{
+			width: 250px;
+			height: 270px;
+			border-radius: 100%;
+
+			background-color: yellow;
+		}
+		.type{
+			height: 22px;
+			width: 200px;
+			margin-left: 123px;
+
+		}
+		input:focus{
+			border: none;
+            box-shadow: 0 0 20px magenta;
+            border: 3px  solid green;
+            color: yellow;
+            font-size: 23px;
+            background-color: blue;
+		}
+		.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: blue;
+/*    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);*/
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.joinBtn:active {
+    box-shadow: 2px 2px 5px yellow;
+}
+a:any-link {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+}
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:autofill {
+    border: 3px solid darkorange;
+}
+
+input:-webkit-autofill {
+    border: 3px solid darkorange;
+}
+	</style>
+</head>
+<body>
+	<h1 align="center">PSUDO CLASS</h1>
+	<h1 style="font-size: 52px; text-align: center;">hover</h1>
+	<div class="hove_r">
+		
+	</div>
+	<br><br>
+	<h1 style="font-size: 52px; text-align: center;">focus</h1>
+
+	<input type="Text" name="" class="type">
+	<h1 style="font-size: 52px; text-align: center;">active</h1>
+<div class="joinBtn"></div>
+	<h1 style="font-size: 52px; text-align: center;">:anylink</h1>
+<a href="#">Home</a>
+	<h1 style="font-size: 52px; text-align: center;">:autofill</h1>
+
+<form>
+    <p>Click on the text box and choose any option suggested by your browser.</p>
+
+    <label for="name">Name</label>
+    <input name="name" type="text" autocomplete="name">
+
+    <label for="email">Email Address</label>
+    <input name="email" type="email" autocomplete="email">
+
+    <label for="country">Country</label>
+    <input name="country" type="text" autocomplete="country-name">
+</form>
+
+</body>
+</html>
