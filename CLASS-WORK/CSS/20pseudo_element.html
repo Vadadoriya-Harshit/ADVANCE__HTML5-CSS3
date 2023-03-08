@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter 
+        {
+            background: green;
+        }
+
+        p::first-line 
+        {
+            background: gray;
+        }
+
+        ::selection 
+        {
+            background: coral;
+            color: lightblue;
+        }
+
+        h2::before 
+        {
+            content: "hi ";
+        }
+        h2::after 
+        {
+            content: " How are you?";
+        }
+
+
+        h3::after 
+        {
+            content: url(https://th.bing.com/th/id/OIP._asvrPA378d4OHIpXOKEzwHaE9?pid=ImgDet&rs=1);
+        }
+
+        h3::before 
+        {
+            content: "\2614";
+        }
+
+        input::placeholder 
+        {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" placeholder="TEST THIS">
+    <!-- &#60; -->
+
+    <h2>Danny</h2>
+
+    <h3>
+        Mayur
+    </h3>
+
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolor alias placeat quod odio, dolore, distinctio esse quia animi maiores quibusdam voluptates ut, laudantium ab quam deleniti quidem praesentium? Ducimus?
+    </p>
+    
+</body>
+</html>
