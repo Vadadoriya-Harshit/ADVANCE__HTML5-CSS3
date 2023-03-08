@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* tagname:hover
+        .classname:hover
+        #idName:hover */
+        .y
+        {
+            height: 100px;
+            width:200px;
+            background: gray;
+            
+            transition:.51s;
+          
+        }
+
+        .y:hover 
+        {
+            background: red;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-left: 200px;
+
+            /* transition: 1s; */
+        }
+
+        input 
+        {
+            margin-top: 40px;
+            border: none;
+            box-shadow: 0 0 20px magenta;
+            padding: 70px;
+        }
+
+        input:focus 
+        {
+            background: lightblue;
+            color:#fff;
+            font-size: 45px;
+            outline: none;
+
+            /* border: 21px solid green; */
+        }
+
+        /* input:hover
+        {
+            border: none;
+            box-shadow: 0 0 20px magenta;
+        } */
+
+        h1:first-child 
+        {
+           background: red;
+        }
+
+        h1:last-child 
+        {
+           background: green;
+        }
+
+        h1:nth-child(2)
+        {
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <input type="text">
+
+        <div>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+        </div>
+
+        <div>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+        </div>
+
+        <div>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+        </div>
+
+
+
+
+        <div class="y"></div>
+
+
+
+    
+</body>
+</html>
