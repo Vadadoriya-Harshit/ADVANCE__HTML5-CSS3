@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-image: url(grd.jpeg);
+            background-size: 100%,100%;
+            background-attachment: fixed;
+            
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .form{
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            border-radius: 12px;
+            margin: auto;
+            transform: translateY(10%);
+        }
+        .form-top{
+            text-align: center;
+            line-height: 75px;
+        }
+        .form-body{
+            height: 210px;
+        }
+        .form-middle{
+            width: 70%;
+            height: 100%;
+            margin: auto;
+          
+        }
+        input[type="text"],[type="password"]{
+            height: 32px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid black;
+            padding-left: 13px;
+            margin-top: 6px;
+            padding-left: 33px;
+        }   
+        input[type="submit"] {
+        height: 34px;
+        width: 278px;
+        border-radius: 25px;
+        border: none;
+        background: linear-gradient(to right,skyblue,blue,hotpink);
+        color: white;
+        cursor: pointer;
+        }
+        input::placeholder{
+        padding-left: 13px;
+        font-weight: -700;
+        }
+       .form-middle img{
+        margin-top: -33px;
+        display: block;
+       }
+       input:focus{
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black; 
+       }
+       input[type="text"]:valid{
+       background: url(RIGHT.png);
+       background-size: 33px;
+       background-repeat: no-repeat;
+       background-position: 100%;
+      }
+       a{
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        color: red;
+        font-size: 12px;
+       }
+  .form-bottum{
+    height: 110px;
+  }
+  input[type="text"]:invalid{ 
+        background: url(wrong.png);
+        background-size: 15px;
+        background-repeat: no-repeat;
+        background-position: 100%;
+       }
+  p{
+    display: block;
+    text-align: center;
+    transform: translateY(30px);
+  }
+  p a,ul{
+    text-align: center;
+    color: gray;
+  }
+  li{
+    text-align: center;
+    display: inline-block;
+    transform: translateY(12px);
+ }
+  .form-end{
+    height: 92px;
+  }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form>
+          <!-- form-header -->
+<div class="form-top"> 
+  <h1>Login</h1>
+</div>
+          <!--form-body -->
+<div class="form-body">
+    <div class="form-middle">
+<label>Username</label><br>
+<input type="text" placeholder="Type Your Username" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,8}" title="only valid this format">
+<img src="https://img.icons8.com/material-outlined/26/null/user--v1.png" alt=""><br>
+<label>Password</label><br>
+<input type="password" placeholder="Type Your Username" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+<img src=https://img.icons8.com/material/24/null/padlock-outline.png;
+ alt=""><br>
+ <a href="#">Forgot Password?</a><br>
+ <input type="submit" value="Login"required>
+    </div>
+</div></form>
+    <!-- form-body end -->
+    <!-- form footer -->
+ <div class="form-bottum">
+<p> <a href="#"> or sign up using </a></p><br><br>
+   <ul>
+    <li> <a href="#"><img src="https://img.icons8.com/color/43/null/facebook-new.png"/></a></li>
+    <li> <a href="#"><img src="https://img.icons8.com/color/40/null/twitter-circled--v1.png"/></a></li>
+    <li> <a href="#"><img src="https://img.icons8.com/color/40/null/google-plus--v1.png"/></a></li>
+ 
+   </ul>
+ </div>
+ <div class="form-end">
+<p><a href="#">Have not account yet?</a></p><br>
+<p><a href="#">Sign up</a></p>
+ </div>
+        <!-- form end -->
+    </div>
+</body>
+</html>
