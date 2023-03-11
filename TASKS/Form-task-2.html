@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(bg.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-family: sans-serif;
+           
+        }
+        .main{
+            width: 600px;
+            height: 570px;
+            background-color: white;
+            color: white;
+            background-attachment:fixed;
+            transform: translate(10%,10%);
+            background-color: transparent;
+        }
+        .form-header{
+            height: 120px;
+            border: 0px solid black;
+        }
+        .form-top{
+            height: 100px;
+            border: 0px solid black;
+        }
+        h1{
+            font-size: 35px;
+            padding: 10px;
+        }
+        .form-middle{
+            height: 400px;
+            border: 0px solid black;
+            font-size: 16px;
+        }
+        input[type="text"]{
+        height: 27px;
+        width: 150px;
+        }
+        input[type="email"]{
+        height: 27px;
+        width: 340px;
+        }
+        input[type="tel"]{
+        height: 27px;
+        width: 100px;
+        }
+        select{
+        height: 27px;
+        width: 200px;
+        }
+        input[type="message"]{
+        height: 100px;
+        width: 340px;
+        }
+        hr{
+          border-color: white;
+            width: 470px;
+        }
+        .x {
+    height: 60px;
+    width: 190px;
+    background-color: #fafafa;
+    border: 0px solid black;
+    background-image: url(cap.jpg);
+    margin-left: 136px;
+    color: black;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    background-position: 100%,12px;
+}
+       
+        input[type="checkbox"]{
+            width: 22px;
+            height: 22px;
+            transform: translate(12px,16px);
+        }
+        p {
+    margin-left: 46px;
+    margin-top: -7px;
+      }
+      .logo{
+       margin-left: 12px;
+       margin-top: -22px;
+      }
+      input[type="submit"] {
+        width: 132px;
+        height: 31px;
+        transform: translate(42px,16px);
+        background-color: transparent;
+        border-color: white;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    input{
+        border: none;
+    } 
+    input:placeholder-shown{
+        padding-left: 33px;
+        font-weight: -900px;
+        color: gray;
+        outline: none;
+    }
+    select{
+        border: none;
+    }
+    .y::after{
+        content: " *";
+        color: red;
+    }
+    z::after{
+        content: " *";
+        color: red;
+    }
+    input:focus{
+        outline: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+      <form>
+     <div class="form-top">
+    <h1>Contact Form</h1>
+    <h4>Please fill in your information and we'll be sending your order in no time</h4>
+     </div>
+     <div class="form-middle"><br>
+   <label for="name">Your Name</label>
+   &emsp;&emsp; &emsp;<input type="text" placeholder="first name" required>
+   &emsp;&emsp; <input type="text" placeholder="Latt name" required>
+    <br><br>
+    <label for="name">Your Email</label>
+    &emsp;&emsp; &emsp;<input type="email" placeholder="hello@gmail.com" required >
+    <br><br>
+    <label for="name" class="z">Phone</label>
+    &emsp;&emsp;&emsp;&emsp; &emsp;<input type="tel" placeholder="###" required pattern="[0-9]{3,3}">
+    &emsp;<input type="tel" placeholder="###" required pattern="[0-9]{3,3}">
+    &emsp;<input type="tel" placeholder="###" required pattern="[0-9]{3,3}">
+    <br><br>
+    <label class="y">Message Subject</label>&emsp;
+    <select>
+        <option hidden>Other</option>
+        <option>Good</option>
+        <option>Excekke</option>
+        <option>Better</option>
+        <option>superb</option>
+    </select>
+    <br><br>
+    <label  for="Message">Message</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="Message">
+    <br><br>
+    <label>Verification</label>
+    <div class="x">
+        <input type="checkbox">
+        <p>I am not robot</p>
+        </div>
+        
+    </div>
+    <hr>
+   <input type="submit" value="submit form">
+       </form>
+    </div>
+</body>
+</html>
