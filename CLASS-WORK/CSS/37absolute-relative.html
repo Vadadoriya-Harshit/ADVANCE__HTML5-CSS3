@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+
+        .foreGround 
+        {
+            height: 200px;
+            width: 400px;
+            background: green;
+            margin: 20px;
+            position: relative;
+        }
+
+        .backGround 
+        {
+            height: 200px;
+            width: 400px;
+            background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE53tTD?ver=8bd9);
+            margin: 50px;
+            background-size: 100% 100%;
+        }
+        .foreGround  span 
+        {
+            position: absolute;
+            top:50%;
+            left:0;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- relative ==> parent
+    absolue ==> child -->
+
+    <div class="foreGround">
+        <span> SOME TEXT</span> 
+       
+        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE53tTD?ver=8bd9" alt="" height="100%" width="100%">
+
+    </div>
+
+    <div class="backGround">
+        <span> SOME TEXT</span> 
+
+    </div>
+
+    
+    
+</body>
+</html>
