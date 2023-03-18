@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            width: 450px;
+            height: 300px;
+            background-image: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+             block-size: 100% 100%;
+             background-position: -50px 0;
+             transition: 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .x:hover{
+            background-position: 0px 0;
+           
+        }
+        .y{
+    width: 350px;
+    height: 230px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+    padding-top: 156px;
+    padding-left: 161px;
+    box-sizing: border-box;
+    margin-left: -56px;
+    transition: 0s;
+    opacity: 0;
+}
+.x:hover .y 
+        {
+            /* display: block; */
+            opacity: 1;
+            margin-left: 0px;
+            transition: 0.3s;
+           opacity: 1;
+            margin-left: 0px;
+        }
+        span 
+        {
+            position: absolute;
+            top:100px;
+            left:200px;
+            color: #fff;
+            font-size: 33px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <span>
+           <b style="color: red;">F</b>all Ahead
+        </span>
+        <div class="y">
+            New Arrivals
+        </div>
+    </div>
+</body>
+</html>

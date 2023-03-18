@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 200px;
+            height: 80px;
+            background: transparent;
+            border: 1px solidm black;
+            margin: 123px auto;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            overflow: hidden;
+            line-height: 76px;
+            text-align: center;
+            border-radius: 42px;
+            box-shadow: 0px 0px 10px purple,10px 10px 20px magenta inset;
+       
+        }
+        .main::after{
+            content: "";
+            width: 200px;
+            height: 80px;
+            background: lightblue;
+            border: 1px solidm black;
+            position: absolute;
+            top: 0px;
+            left: -100%;
+            transition: 0.7s;
+            z-index: -1;
+        }
+        .main:hover::after{
+            left: 0%;
+            transition: 0.7s;
+            
+        }
+        span{
+            text-align: center;
+            font-size: 33px;
+            padding-top: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+  <span>Hover Me</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 200px;
+            height: 80px;
+            border: 1px solid black;
+            background: green;
+            margin: 123px auto;
+            position: relative;
+            top: 0pc;
+            left: 0px;
+            overflow: hidden;
+        }
+        .effect{
+            width: 200px;
+            height: 80px;
+            background: red;
+            position: absolute;
+            border: 1px solid black;
+            top: 0px;
+            left: -100%;
+            transition: 1s;
+          
+        }
+        p{
+            font-size: 23px;
+            text-align: center;
+            
+        }
+        .main:hover .effect{
+            left: 0px;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Hover Me</p>
+     <div class="effect">
+
+     </div>
+    </div>
+</body>
+</html>
