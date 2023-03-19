@@ -1,0 +1,92 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .box{
+            width: 631px;
+            height: 315px;
+            margin: 123px auto;border: 1px solid black;
+            background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+            }
+            .box p {
+            position: absolute;
+            display: inline-block;
+            top: 49%;
+            left: 30%;
+            color: white;
+            letter-spacing: 7px;
+            font-size: 1.6em;
+       }
+            .box span {
+            font-weight: 700;
+            color: #2fdab8;
+        }
+        .top-div{
+            width: 12px;
+            height: 12px;
+            background-color: black;
+            position: absolute;
+            /* top: 0%; */
+            left: 0%;transform: scale(0);
+            bottom: 0%;
+            overflow: hidden;
+          transition: 0.7s;
+          opacity: 0.1;
+         
+            
+        }
+        .b-div{
+            width: 12px;
+            height: 12px;
+            background-color: #2fdab8;
+            position: absolute;
+            background-color: black;
+           right: 0%;
+           opacity: 0.1;
+           transform: scale(0);
+           overflow: hidden;
+           transform: scale(0);
+          transition: 0.7s;
+
+        }
+        .box:hover .b-div{
+            transform: scale(100);
+          transition: 0.7s;
+            
+        }
+        .box:hover .top-div{
+            transform: scale(156);
+          transition: 0.7s;
+
+
+        }
+        </style>
+    </head>
+    <body>
+        
+        <div class="box">
+            <div class="top-div">
+
+            </div>
+            <p>Flat <span>50%</span> offer</p>
+              <div class="b-div">
+
+              </div>
+        </div>
+       
+    </body>
+    </html>
