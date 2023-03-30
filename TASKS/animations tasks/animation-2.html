@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .box{
+            width: 60%;
+            height: 300px;
+            border: 1px solid rgb(188, 172, 172);
+            margin: 34px auto;
+            position: relative;
+        }
+        .box img{
+            width: 100%;
+            height: 100%;
+        }
+        .main{
+            width: 60px;
+            height: 60px;
+            margin: -190px auto;
+            background-color: white;
+            border-radius: 50%;
+            animation-name: button;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: relative; 
+        }
+        .child{
+            width: 60px;
+            height: 60px;
+            margin: 223px auto;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -37%;
+            left: 46%;
+           z-index: 99;
+        }
+        .fa-play{
+          position: absolute;
+          top: 34%;
+          left: 42%;
+          font-size: 22px;
+         
+        }
+       .child:hover{
+        background-color: skyblue;
+       }
+       .child:hover .fa-play{
+        color: white;
+       }
+        @keyframes button {
+            to{
+                transform: scale(1.5);
+               transition: 1s;
+               opacity: 0;
+            }
+            from{
+                transform: scale(1);
+                 opacity: 1;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5YXcuy2ofdcCs3apAiuRkpdC-3_ZX1HvG1Q15U0NIA&usqp=CAU&ec=48665698" alt="">
+        <div class="main">
+     
+  </div>
+  <div class="child">
+      <i class="fa fa-play" aria-hidden="true"></i>
+  </div>
+    </div>
+</body>
+</html>

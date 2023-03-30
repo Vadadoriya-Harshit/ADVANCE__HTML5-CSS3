@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+           
+            box-sizing: border-box;
+            font-family: sans-serif;
+            margin: 0%;
+            padding: 0%;
+
+        }
+        .nav{
+            width: 90%;
+            height: 50px;
+            border: 0px solid black;
+            margin: auto;
+            display: flex;
+        }
+      
+       .nav .x{
+        width: 25.5%;
+        border: 0px solid black;
+        text-align: center;
+        line-height: 45PX;
+        position: relative;
+       
+      }
+     .nav .x a{
+        text-decoration: none;
+        color: #000;
+       
+      }
+     
+     .nav .x:hover{
+        background-color: #fc636b;
+     }
+     
+     .nav .x span{
+        position: absolute;
+        top: 57%;
+        left: 46%;
+        font-size: 26px;
+        color: #fc636b;
+        visibility: hidden;
+     }
+     .nav .x:hover span{
+        visibility: visible;
+     }
+     .main{
+        width: 1200px;
+        height: auto;
+        border: 0px solid black;
+        position: absolute;
+        top: 170%;
+        left: -10%;
+        display: flex;
+        visibility: hidden;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 1200px;
+     }
+     .main1{
+        width: 1200px;
+        height: 400px;
+        border: 0px solid black;
+        position: absolute;
+        top: 170%;
+        left: -110%;
+        display: flex;
+        visibility: hidden;
+     }
+     .main2{
+        width: 1200px;
+        height: 400px;
+        border: 0px solid black;
+        position: absolute;
+        top: 170%;
+        left: -210%;
+        display: flex;
+        visibility: hidden;
+     }
+     .main3{
+        width: 1200px;
+        height: 400px;
+        border: 0px solid black;
+        position: absolute;
+        top: 170%;
+        left: -310%;
+        display: flex;
+        visibility: hidden;
+     }
+     .y:hover .main{
+        visibility: visible;
+     }
+     .y:hover .main1{
+        visibility: visible;
+     }
+     .y:hover .main2{
+        visibility: visible;
+     }
+     .y:hover .main3{
+        visibility: visible;
+     }
+     /* -------- */
+     .box{
+            width: 255px;
+            height: 390px;
+            border: 0px solid black;
+            box-shadow: 0px 0px 15px 0px #D6D6D6;
+            margin-left: 39px;
+        }
+        .in-box{
+                  height: 227px;
+                  border: 0px solid black;
+                  position: relative;
+          }
+          .in-box .new {
+        width: 70px;
+        height: 25px;
+        background:#fc636b;
+        color: white;
+        transform: translateX(184px);
+        text-align: center;
+        line-height: 25px;
+      }
+      .in-box img {
+        margin-top: -27px;
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s ease-out 0s;
+      padding: 52px 50px 20px;
+}
+
+.in-box img:hover{
+    transform: scaleX(-1);
+  }
+   .q-btn{
+    text-align: center;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .q-btn p{
+    margin-top: -9px;
+  }
+  .in-box:hover .q-btn{
+  opacity: 1;
+  top: 87%;
+  transition: 0.6s;
+  border: none;
+  
+  }
+ .q-btn:hover{
+    background-color: #2fdab8;
+    cursor: pointer;
+    
+ }
+ .item-info-product {
+    text-align: center;
+    margin: 0px 0 0;
+}
+
+ 
+.info-product-price b{
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.info-product-price del{
+    color: #908e8e;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.button {
+    width: 77%;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #2fdab8;
+    outline: 2px solid #2fdab8;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    outline-offset: 3px;
+    transition: 0.4s;
+}
+.item-info-product h4 a{
+    font-size: 0.9em;
+    color: #fc636b !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="x y"><a href="#"><span>&#x25BC;</span>MEN'S</a>
+          <div class="main">
+           <div class="box">
+           <div class="in-box">
+            <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg" alt="">
+            <div class="q-btn"><p>Quick View</p></div>
+            <div class="item-info-product">
+                <h4><a href="single.html">Gabi Full Sleeve Sweatshirt</a></h4>
+                  <b class="item_price">$160.99</b>&emsp;
+                  <del>$290.71</del>
+                  <input type="submit" name="submit" value="Add to cart" class="button">
+               </div>
+           </div>
+           </div>
+           <!--  -->
+           <div class="box">
+            <div class="in-box">
+             <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="">
+             <div class="q-btn"><p>Quick View</p></div>
+             <div class="item-info-product">
+                 <h4><a href="single.html">Formal Blue Shirt</a></h4>
+                   <b class="item_price">$160.99</b>&emsp;
+                   <del>$290.71</del>
+                   <input type="submit" name="submit" value="Add to cart" class="button">
+                </div>
+            </div>
+            </div>
+            <!--  -->
+           <div class="box">
+            <div class="in-box">
+             <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m3.jpg" alt="">
+             <div class="q-btn"><p>Quick View</p></div>
+             <div class="item-info-product">
+                 <h4><a href="single.html">Dark Blue Track Pants</a></h4>
+                   <b class="item_price">$80.99</b>&emsp;
+                   <del>$89.71</del>
+                   <input type="submit" name="submit" value="Add to cart" class="button">
+                </div>
+            </div>
+            </div>
+              <!--  -->
+           <div class="box">
+            <div class="in-box">
+             <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m4.jpg" alt="">
+             <div class="q-btn"><p>Quick View</p></div>
+             <div class="item-info-product">
+                 <h4><a href="single.html">Round Neck Black T-Shirt</a></h4>
+                   <b class="item_price">$190.99</b>&emsp;
+                   <del>$159.71</del>
+                   <input type="submit" name="submit" value="Add to cart" class="button">
+                </div>
+            </div>
+            </div>
+           <!-- cose list -->
+          </div>
+        
+        
+        </div>
+        <div class="x y"><a href="#"><span>&#x25BC;</span>WOMEN'S</a>
+            <div class="main1">
+          <!-- start dropdown -->
+
+          <div class="box">
+            <div class="in-box">
+             <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/w1.jpg" alt="">
+             <div class="q-btn"><p>Quick View</p></div>
+             <div class="item-info-product">
+                 <h4><a href="single.html">A-line Black Skirt</a></h4>
+                   <b class="item_price">$130.99</b>&emsp;
+                   <del>$1899.71</del>
+                   <input type="submit" name="submit" value="Add to cart" class="button">
+                </div>
+            </div>
+            </div>
+            <!--  -->
+            <div class="box">
+              <div class="in-box">
+               <div class="new">NEW</div>
+              <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/w2.jpg" alt="">
+               <div class="q-btn"><p>Quick View</p></div>
+               <div class="item-info-product">
+                 <h4><a href="single.html">Sleeveless Solid Blue Top</a></h4>
+                     <b class="item_price">$140.99</b>&emsp;
+                     <del>$1899.71</del>
+                     <input type="submit" name="submit" value="Add to cart" class="button">
+                  </div>
+              </div>
+              </div>
+               <!--  -->
+            <div class="box">
+              <div class="in-box">
+               <div class="new">NEW</div>
+             <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/w3.jpg" alt="">
+               <div class="q-btn"><p>Quick View</p></div>
+               <div class="item-info-product">
+                <h4><a href="single.html">Skinny Jeans</a></h4>
+                     <b class="item_price">$150.99</b>&emsp;
+                     <del>$1899.71</del>
+                     <input type="submit" name="submit" value="Add to cart" class="button">
+                  </div>
+              </div>
+              </div>
+               <!--  -->
+            <div class="box">
+              <div class="in-box">
+               <div class="new">NEW</div>
+             <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/w4.jpg" alt="">
+               <div class="q-btn"><p>Quick View</p></div>
+               <div class="item-info-product">
+                <h4><a href="single.html">Black Basic Shorts</a></h4>
+                <b class="item_price">$120.99</b>&emsp;
+                     <del>$1899.71</del>
+                     <input type="submit" name="submit" value="Add to cart" class="button">
+                  </div>
+              </div>
+              </div>
+          <!-- close dropdown -->
+            </div>
+        </div>
+        <div class="x y"><a href="#"><span>&#x25BC;</span>BAGS</a>
+          <div class="main2">
+    <!--  -->
+    <div class="box">
+      <div class="in-box">
+       <div class="new">NEW</div>
+    <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b1.jpg" alt="">
+       <div class="q-btn"><p>Quick View</p></div>
+       <div class="item-info-product">
+        <h4><a href="single.html">Laptop Messenger Bag</a></h4>
+        <b class="item_price">$140.99</b>&emsp;
+             <del>$169.71</del>
+             <input type="submit" name="submit" value="Add to cart" class="button">
+          </div>
+      </div>
+      </div>
+       <!--  -->
+    <div class="box">
+      <div class="in-box">
+       <div class="new">NEW</div>
+        <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b2.jpg" alt="">
+       <div class="q-btn"><p>Quick View</p></div>
+       <div class="item-info-product">
+        <h4><a href="single.html"> Laptop Backpack</a></h4>
+        <b class="item_price">$120.99</b>&emsp;
+             <del>$169.71</del>
+             <input type="submit" name="submit" value="Add to cart" class="button">
+          </div>
+      </div>
+      </div>
+      <!--  -->
+      <div class="box">
+        <div class="in-box">
+         <div class="new">NEW</div>
+         <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b3.jpg" alt="">
+         <div class="q-btn"><p>Quick View</p></div>
+         <div class="item-info-product">
+          <h4><a href="single.html">Puma Backpack</a></h4>
+          <b class="item_price">$127.99</b>&emsp;
+               <del>$169.71</del>
+               <input type="submit" name="submit" value="Add to cart" class="button">
+            </div>
+        </div>
+        </div>
+      <!--  -->
+      <div class="box">
+        <div class="in-box">
+         <div class="new">NEW</div>
+        <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b4.jpg" alt="">
+         <div class="q-btn"><p>Quick View</p></div>
+         <div class="item-info-product">
+          <h4><a href="single.html">Travel Duffel Bag </a></h4>
+          <b class="item_price">$190.99</b>&emsp;
+               <del>$259.71</del>
+               <input type="submit" name="submit" value="Add to cart" class="button">
+            </div>
+        </div>
+        </div>
+      <!-- finish -->
+          </div>
+        </div>
+        <div class="x y"><a href="#"><span>&#x25BC;</span>FOOTWEAR</a>
+        <div class="main3">
+          <div class="box">
+            <div class="in-box">
+             <div class="new">NEW</div>
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/s1.jpg" alt="">
+             <div class="q-btn"><p>Quick View</p></div>
+             <div class="item-info-product">
+                 <h4><a href="single.html">Running Shoes</a></h4>
+                   <b class="item_price">$80.99</b>&emsp;
+                   <del>$89.71</del>
+                   <input type="submit" name="submit" value="Add to cart" class="button">
+                </div>
+            </div>
+            </div>
+    <!--  -->
+    <div class="box">
+      <div class="in-box">
+       <div class="new">NEW</div>
+       <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/s2.jpg" alt="">
+       <div class="q-btn"><p>Quick View</p></div>
+       <div class="item-info-product">
+           <h4><a href="single.html">Shoetopia Lace Up</a></h4>
+             <b class="item_price">$90.99</b>&emsp;
+             <del>$59.71</del>
+             <input type="submit" name="submit" value="Add to cart" class="button">
+          </div>
+      </div>
+      </div>
+  <!--  -->
+  <div class="box">
+    <div class="in-box">
+     <div class="new">NEW</div>
+    <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/s3.jpg" alt="">
+     <div class="q-btn"><p>Quick View</p></div>
+     <div class="item-info-product">
+         <h4><a href="single.html">Steemo Casuals(Black)</a></h4>
+           <b class="item_price">$90.99</b>&emsp;
+           <del>$59.71</del>
+           <input type="submit" name="submit" value="Add to cart" class="button">
+        </div>
+    </div>
+    </div>
+
+     <!--  -->
+  <div class="box">
+    <div class="in-box">
+     <div class="new">NEW</div>
+   <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/s4.jpg" alt="">
+     <div class="q-btn"><p>Quick View</p></div>
+     <div class="item-info-product">
+         <h4><a href="single.html">Benetton Flip Flops</a></h4>
+           <b class="item_price">$40.99</b>&emsp;
+           <del>$99.71</del>
+           <input type="submit" name="submit" value="Add to cart" class="button">
+        </div>
+    </div>
+    </div>
+
+        </div>
+        
+        </div>
+    </div>
+    
+</body>
+</html>

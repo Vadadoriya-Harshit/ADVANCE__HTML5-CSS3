@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            font-family: sans-serif;
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            /* background-color: black; */
+        }
+        .nav{
+            height: 72px;
+            width: 100%;
+            border: 0px solid black;
+            background-color: #f5f5f5;
+        }
+        li, a{
+            display: inline;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+          padding-left: 22px;
+            line-height: 23px;
+            position: relative;
+            padding: 18px;
+        }
+        ul{
+          margin-left: 45px;
+          padding-top: 7px;
+          line-height: 50px;
+        }
+        li .down{
+            position: absolute;
+            top: 33%;
+            right: 16%;
+        }
+        li:hover .down{
+           transform: rotateX(180deg);
+        }
+        li::before{
+            content: " ";
+            width: 0%;
+            height: 4%;
+            background-color: rgb(27, 27, 206);
+            position: absolute;
+             bottom: 0%;
+              right: 0%;
+        }
+        li:hover::before{
+            width: 100%;
+            transition: 1s;
+        }
+        .list1{
+           width: 1000px;
+           height: 0px;
+           border: 0px solid black;
+           background-color: white;
+           position: absolute;
+           border-radius: 23px;
+           left: -20%;
+           top: 120%;
+          visibility: hidden;
+          overflow: hidden;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           transition: 0.3s;
+        }
+        .list2{
+          width: 120%;
+          height: 0;
+          position: absolute;
+          background-color: white;
+          border-radius: 23px;
+          left: 10%;
+           top: 120%;
+           overflow: hidden;
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           transition: 0.3s;
+           
+        }
+        .list3{
+          width: 140%;
+          height: 0;
+          position: absolute;
+          background-color: white;
+          border-radius: 23px;
+          left: 10%;
+           top: 120%;
+           overflow: hidden;
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           transition: 0.3s;
+           
+        }
+        .list4 ,.list6{
+          width: 120%;
+          height: 0;
+          position: absolute;
+          background-color: white;
+          border-radius: 23px;
+          left: 10%;
+           top: 120%;
+           overflow: hidden;
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           transition: 0.3s;
+        }
+       
+        li:hover .list4{
+            visibility: visible;
+            height: 270px;
+            transition: 0.3s;
+        }
+        li:hover .list6{
+            visibility: visible;
+            height: 230px;
+            transition: 0.3s;
+        }
+        li:hover .list1{
+            visibility: visible;
+            height: 370px;
+            transition: 0.3s;
+        }
+        li:hover .list3{
+            visibility: visi3le;
+            height: 350px;
+            transition: 0.3s;
+        }
+        li:hover .list2{
+            visibility: visible;
+            height: 150px;
+            transition: 0.3s;
+        }
+         tr{
+        text-align: center;
+    }
+     th{
+        padding: 12px;
+    }
+     td{
+        padding: 8px;
+    }
+  .list1 table{
+        height: 357px;
+    }
+    p{
+    text-align: center;
+    padding-top: 17px;
+   }
+   .list5{
+          width: 1000px;
+          height: 0;
+          position: absolute;
+          background-color: white;
+          border-radius: 23px;
+          background-color: white;
+          left: -400%;
+           top: 120%;
+           overflow: hidden;
+           transition: 0.3s;
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+   }
+   li:hover .list5{
+            visibility: visible;
+            height: 240px;
+            transition: 0.3s;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="nav">
+     <ul>
+        <li><a href="#">Home</a>
+            <span class="down">&#9207;</span>
+          <div class="list1">
+            <table align="" border="0" width="100%">
+                <tr>
+                 <th><a href="#">aColumn 01</a></th>
+                 <th><a href="#"> Column 02</a></th>
+                 <th> <a href="#"> Column 03</a></th>
+                 <th> <a href="#"> Column 04</a></th>
+                </tr>
+                <tr>
+                 <td> <a href="#">Home 01-Main</a></td>
+                 <td> <a href="#"> Home 08-travels </a></td>
+                 <td> <a href="#"> Home 15-animals </a></td>
+                 <td> <a href="#"> Home 22-obituaries </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 02-Technology </a></td>
+                 <td> <a href="#"> Home 09-Fitness </a></td>
+                 <td> <a href="#"> Home 16-Music </a></td>
+                 <td> <a href="#"> Home 23-obituaries </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 03-Gaming </a></td>
+                 <td> <a href="#"> Home 10-Medical </a></td>
+                 <td> <a href="#"> Home 17-Newsblog </a></td>
+                 <td> <a href="#"> Home 22-obituaries </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 04-Illustration </a></td>
+                 <td> <a href="#"> Home 11-Business </a></td>
+                 <td> <a href="#"> Home 18-Neeontime </a></td>
+                 <td> <a href="#"> Home 22-obituaries </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 05-Newspaper  </a></td>
+                 <td> <a href="#"> Home 12-Personal </a></td>
+                 <td> <a href="#"> Home 19-Gadget </a></td>
+                 <td>  <a href="#"> Home 22-obituaries </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 06-Magazine </a></td>
+                 <td> <a href="#"> Home 13-Food </a></td>
+                 <td>  <a href="#"> Home 20-Automotive </a></td>
+                 <td> <a href="#"> Home 22-Crypto </a></td>
+                </tr>
+                <tr>
+                 <td> <a href="#"> Home 07-sports </a></td>
+                 <td>  <a href="#"> Home 14-Photography  </a></td>
+                 <td> <a href="#"> Home 15-animals  </a></td>
+                 <td> <a href="#"> Home 21-Crypto  </a></td>
+                </tr>
+            </table>
+          </div>
+        </li>
+        <li><a href="#">Features</a>
+            <span class="down">&#9207;</span>
+          <div class="list2">
+            <p>Author Details</p>
+            <p>Content Table</p>
+            <p>Single Past Layout</p>
+          </div>
+        </li>
+        <li><a href="#">Categories</a>
+            <span class="down">&#9207;</span>
+            <div class="list4">
+              <p>Blog Layout 01</p>
+              <p>Blog Layout 02</p>
+              <p>Blog Layout 03</p>
+              <p>Blog Layout 04</p>
+              <p>Blog Layout 05</p>
+              <p>Blog Layout 06</p>
+               </div>
+        </li>
+        <li><a href="#">Elements</a>
+            <span class="down">&#9207;</span>
+            <div class="list3">
+                <p>Miscellaneous &emsp;&emsp;&emsp;&emsp;&#62;</p>
+                <p>Post Grid Layout &emsp;&emsp;&emsp;&#62;</p>
+                <p>Post List Layout &emsp;&emsp;&emsp;&#62;</p>
+                <p>Post Overlay Layout &emsp;&#62;</p>
+                <p>Post Tab Layout &emsp;&emsp;&emsp;&#62;</p>
+                <p>Post Tab Layout &emsp;&emsp;&emsp;&#62;</p>
+                <p>Post Slider Layout &emsp;&emsp;&#62;</p>
+                <p>Team Layout &emsp;&emsp;&emsp;&emsp;&#62;</p>
+ 
+               </div>
+        </li>
+        <li><a href="#">Pages</a>
+            <span class="down">&#9207;</span>
+          <div class="list5">
+          <table width="100%" border="0">
+            <tr>
+                <th>Column 01</th>
+                <th>Column 02</th>
+                <th>Column 03</th>
+                <th>Column 04</th>
+            </tr>
+            <tr>
+                <td>About us</td>
+                <td>Team Grid 01</td>
+                <td>Thumb Horizontal 01</td>
+                <td>Review With Multi Criteria Rating</td>
+            </tr>
+            <tr>
+                <td>Contact</td>
+                <td>Team Grid 02</td>
+                <td>Thumb Horizontal 02</td>
+                <td>Affiliate Product</td>
+            </tr>
+            <tr>
+                <td>Login</td>
+                <td>Teams Archive</td>
+                <td>Thumb Horizontal 03</td>
+                <td>404 Page</td>
+            </tr>
+            <tr>
+                <td>Registration</td>
+                <td>Single Team</td>
+                <td>Thumb Vertical</td>
+                <td>RTL Demo</td>
+            </tr>
+          </table>
+          </div>
+        </li>
+        <li><a href="#">Shop</a>
+            <span class="down">&#9207;</span>
+            <div class="list6">
+                <p>Shop</p>
+                <p>Cart</p>
+                <p>Checkout</p>
+                <p>My account</p>
+                <p>Shop Details</p>
+                  </div>
+        </li>
+        <li><a href="#">contact</a>
+            <span class="down">&#9207;</span>
+           
+        </li>
+     </ul>
+    </div>
+</body>
+</html>
