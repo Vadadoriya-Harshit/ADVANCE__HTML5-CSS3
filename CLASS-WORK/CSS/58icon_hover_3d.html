@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        a
+        {
+            height: 50px;
+            width: 50px;
+            /* background: gray; */
+            display: inline;
+            display: block;
+            position: relative;
+
+            text-align: center;
+            line-height: 50px;
+            transition: .5s;
+            transform-style: preserve-3d;
+        }
+
+        .front
+        {
+            height: 50px;
+            width: 50px;
+            background: lightblue;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            transform: translateZ(25px);
+        }
+
+        .back 
+        {
+            height: 50px;
+            width: 50px;
+            background: lightcoral;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+
+            transform:rotateX(90deg) translateZ(25px);
+        }
+        a:hover 
+        {
+            transform: rotateX(-90deg) translateZ(25px);
+        }
+
+        /* b 
+        {
+            height: 50px;
+            width: 50px;
+            background: green;
+            display: inline-block;
+        } */
+    </style>
+</head>
+<body>
+
+    <!-- <b>b</b>
+    <b>b</b>
+    <b>b</b>
+    <b>b</b> -->
+
+   
+    <a href="">
+
+
+        <div class="front">
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>
+
+        <div class="back">
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>
+
+    </a>
+</body>
+</html>

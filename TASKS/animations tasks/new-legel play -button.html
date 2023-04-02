@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main{
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            margin: 123px auto;
+            border-radius: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: lightblue;
+            transition: 1.4s;
+
+        }
+        .in{
+            width: 80px;
+            height: 80px;
+            border: 0px solid black;
+            background-color: lightblue;
+            z-index: -1;
+            border-radius: 70%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            opacity: 1;
+            animation-name: play;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+        .out{
+            width: 80px;
+            height: 80px;
+            border: 0px solid black;
+            background-color: lightblue;
+            z-index: -1;
+            border-radius: 70%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            opacity: 1;
+            animation-name: play1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        .fa-play{
+           font-size: 28px;
+        }
+       .main:hover{
+        background-color: blue;
+        color: white;
+       }
+        @keyframes play{
+            from{
+             transform: scale(1);
+             opacity: 1;
+             
+            }
+            to{
+            transform: scale(1.5);
+             opacity: 0;
+            }
+            
+        }
+        @keyframes play1{
+            from{
+             transform: scale(1);
+             opacity: 1;
+             
+            }
+            to{
+            transform: scale(2.2);
+             opacity: 0;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <i class="fa-solid fa-play"></i>
+        <div class="in">
+
+        </div>
+        <div class="out">
+
+        </div>
+    </div>
+</body>
+</html>

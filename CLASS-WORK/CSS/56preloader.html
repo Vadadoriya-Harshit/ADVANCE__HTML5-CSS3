@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body 
+        {
+            background: linear-gradient(red,blue);
+            /* background-repeat: no-repeat; */
+            background-attachment: fixed;
+            /* height: 100vh; */
+        }
+
+        *{box-sizing: border-box;}
+        .x 
+        {
+            height: 150px;
+            width: 150px;
+            background: transparent;
+            margin: 200px auto;
+
+            border: 12px solid transparent;
+            border-top: 12px solid red;
+            border-radius: 50%;
+            padding: 15px;
+
+            animation: preloader 3s  infinite linear;
+
+            box-shadow: 0 0 20px #000 inset;
+        }
+
+
+        .y 
+        {
+            height: 100px;
+            width: 100px;
+            background: transparent;
+          
+
+            border: 12px solid  transparent;
+            border-top: 12px solid green;
+            border-radius: 50%;
+            padding: 15px;
+
+            box-shadow: 0 0 20px #000;
+
+            animation: preloader 4s infinite;
+        }
+
+        .z
+        {
+            height: 50px;
+            width: 50px;
+            background: transparent;
+          
+
+            border: 12px solid transparent;
+            border-top: 12px solid blue;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #000;
+
+            animation: preloader 5s infinite;
+        }
+
+        @keyframes preloader 
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+
+        <div class="y">
+
+            <div class="z">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
