@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    .main1{
+      width: 120px;
+      height: 120px;
+      border:5px solid transparent;
+      margin: 223px auto;
+      position: relative;
+      border-top: 5px solid red;
+      border-radius: 50%;
+      animation: play 2s infinite linear;
+     
+    }
+    .main2{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 10%;
+      border:5px solid transparent;
+      left: 12%;
+      border-top: 5px solid green;
+      border-radius: 50%;
+      animation: play1 2s infinite linear;
+      
+    }
+    .main3{
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 13%;
+      left: 14%;
+      border:5px solid transparent;
+      border-top: 5px solid blue;
+      border-radius: 50%;
+      animation: play 1s infinite linear;
+
+    }
+    .main4{
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 13%;
+      left: 14%;
+      border:5px solid transparent;
+      border-top: 5px solid yellow;
+      border-radius: 50%;
+      animation: play1 3s infinite linear;
+
+    }
+    .main5{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 13%;
+      left: 14%;
+      border:5px solid transparent;
+      border-top: 10px solid orange;
+      border-radius: 50%;
+      animation: play 3s infinite linear;
+      
+
+    }
+    .main6{
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 13%;
+      border:5px solid transparent;
+
+      left: 14%;
+      border-top: 10px solid skyblue;
+      border-radius: 50%;
+      animation: play1 3s infinite linear;
+
+    }
+    @keyframes play{
+      from{
+        transform: rotate(0deg);
+
+      }
+      to{
+        transform: rotate(360deg);
+
+      }
+      
+    }
+    @keyframes play1{
+      from{
+        transform: rotate(360deg);
+
+      }
+      to{
+        transform: rotate(-360deg);
+
+      }
+      
+    }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="main2">
+          <div class="main3">
+               <div class="main4">
+                <div class="main5">
+                    <div class="main6">
+
+                    </div>
+                </div>
+               </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

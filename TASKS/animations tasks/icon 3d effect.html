@@ -8,49 +8,45 @@
     <style>
         a{
             width: 50px;
-            height: 50px;
             display: block;
-            background-color: gray;
+            height: 50px;
+            /* background-color: aqua; */
             transition: 0.4s;
             position: relative;
-            transform-style: preserve-3d ;
+            transform-style: preserve-3d;
         }
-        .f{
+        .b{
             width: 50px;
             height: 50px;
             background-color: pink;
             position: absolute;
             top: 0%;
             left: 0%;
-            backface-visibility: hidden;
             transform: translateZ(25px);
-      
         }
-        .b{
+        .c{
             width: 50px;
             height: 50px;
-            background-color: orange;
+            background-color: blue;
             position: absolute;
             top: 0%;
             left: 0%;
-            backface-visibility: hidden;
             transform: rotateX(90deg) translateZ(25px);
         }
         a:hover{
-            transform: rotateX(-90deg) translateZ(25px);
+            transform: rotateX(-90deg) translateZ(0px);
 
         }
     </style>
 </head>
 <body>
-    <a href="">
-    <div class="f">
-
-    </div>
+    <a href="#">
     <div class="b">
 
     </div>
-
+    <div class="c">
+        
+    </div>
     </a>
 </body>
 </html>

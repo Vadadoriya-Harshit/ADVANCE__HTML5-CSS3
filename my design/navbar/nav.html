@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <style>
+    .primary-menu{
+      list-style-type: none;
+      text-indent: 43px;
+      font-size: 16px;
+      line-height: 28px;
+      position: relative;
+    }
+    .quick-btn{
+      width: auto;
+      height: auto;
+      cursor: pointer;
+      position: relative;
+     display: none;
+    }
+    .quick-btn span{
+      line-height: 29px;
+      padding-left: 23px;
+    }
+    .quick-dropdown{
+      width: 180px;
+      height: 150px;
+      /* border: 1px solid black;s */
+      background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      position: absolute;
+      list-style-type: none;
+      top: 100%;
+      left: 7%;
+      display: none;
+    }
+   .quick-dropdown li{
+    padding: 14px;
+    text-align: center;
+   }
+   .quick-btn:hover .quick-dropdown{
+    display: block;
+   }
+   .main-action{
+    display: inline-block;
+   }
+  .main-menu{
+    display: none;
+  }
+  .header-bottum ul li a::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 100%;
+    transition: 0.3s;
+  }
+  .header-bottum ul li a:hover::before{
+    width: 87%;
+    transition: 0.3s;
+  }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <!-- header-top -->
+      <div class="header-top">
+       <div class="header-top-menu">
+        <div class="menu-top">
+        <ul class="menu-top">
+            <li><a href="#">Self Course</a></li>
+            <li><a href="#">List Bussiness</a></li>
+            <li><a href="#">Become aPartner</a></li>
+          </ul>
+          </div>
+               <div class="quick-btn">
+                <span>Quick Links</span>
+              <div class="quick-dropdown">
+                <li><a href="#">Self Course</a></li>
+                <li><a href="#">List Bussiness</a></li>
+                <li><a href="#">Become a parftner</a></li>
+               </div>
+              </div>
+       </div>
+       <div class="header-top-right">
+           <span> &#128241;</span>
+             <a href="#">Download App </a>
+       </div>
+      </div>
+      <!-- header-middle -->
+     <div class="header-middle">
+     <div class="logo-area">
+  <img src="https://cdn.digitalclassworld.com/public/logonew.png" alt="" width="100%" height="100%">
+     </div>
+     <div class="category">
+        <p>Categories   <span>&#x25BE;</span>
+        <div class="dropdown1">
+            <li><a href="#">Online Course</a></li>
+            <li><a href="#">Institutions</a></li>
+        </div>
+        <div class="main-menu">
+          <img src="https://img.icons8.com/ios-filled/22/null/menu-rounded.png"/>
+        </div>
+        </p>
+        
+     </div>
+     <div class="search-bar">
+      <img src="https://img.icons8.com/material-sharp/24/null/search.png"/>
+          <input class="Form-control" type="search"  placeholder="Search Courses...">
+          <!-- , Institutions or Services -->
+     </div>
+     <div class="actions">
+         <div class="icons">
+          <span class="actions-in-small-device">
+          <span class="main-action">
+            
+          <a href="#"> <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/30/null/external-help-support-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" alt="Digital Claass"></a></span>
+          <a href="#"> <img src="https://img.icons8.com/ios/30/null/like--v1.png" alt="Favourite"></a>
+            </span>
+          <a href="#"> <img src="https://img.icons8.com/ios/30/null/shopping-cart--v1.png" alt="Checkout"></a>
+         <a href="#">  <img src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a>
+        
+       </div>
+     </div>
+     </div>
+      <div class="header-bottum">
+        <ul>
+          <li><a href="#">All Courses</a></li>
+          <li><a href="#">Browse Institutions</a></li>
+          <li><a href="#">Ed-Tech Companies</a></li>
+          <li><a href="#">Institutes</a></li>
+          <li><a href="#">Schools</a></li>
+          <li><a href="#">Colleges</a></li>
+          <li><a href="#">Edu.Apps</a></li>
+        </ul>
+      </div>
+    </div>
+</body>
+ 
+</html>

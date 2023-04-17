@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       footer{
+        width: 100%;
+        height: 270px;
+        background: black;
+        border: 0px solid white;
+        display: grid;
+        grid-template-rows: 70% 30%;
+     
+       }
+       .footer-top{
+        border: 0px solid white;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 2fr 3fr 5fr;
+       }
+       .footer-logo{
+        border: 0px solid white;
+        padding: 42px;
+       }
+       .footer-info{
+        border: 0px solid white;
+        color: white;
+        padding-top: 74px;
+        line-height: 22px;
+        font-size: 16px;
+       }
+       .footer-form{
+        border: 0px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-end{
+        border: 0px solid white;
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        color: #495057;;
+        font-size: 22px;
+        text-align: center;
+        line-height: 90px;
+        letter-spacing: 8px;
+       }
+       .footer-end a{
+        text-align: center;
+        color: #495057;;
+       }
+        .rights{
+          border: 0px solid white;
+          color: white;
+          line-height: 105px;
+          text-indent: 47px;
+        }
+         .media-icons{
+          border: 0px solid white;
+
+         }
+     input[type="email"] {
+    height: 47px;
+    width: 260px;
+    background-color: #495057;
+    border: none;
+    padding-left: 23px;
+    color: white;
+  }
+  input[type="email"]{
+    outline: none;
+  }
+       .send-btn{
+        height: 47px;
+        width: 42px;
+      background: #bc906b;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      transition: 0.3s;
+     
+       }
+       .send-btn:hover{
+        background: black;
+        transition: 0.3s;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="banner">
+         <div class="header">
+   <div class="logoarea">
+   <div class="logo">
+    <img src="images/logo.png" alt="log0" width="100%" height="100%">
+   </div>
+  </div>
+   <div class="nav-menu">
+    <div class="primary-menu">
+     <li><a href="#">HOME</a><span>&#8964;</span>
+        <div class="dropdown-1">
+            <p><a href="#">Home 1</a></p>
+            <p><a href="#">Home 2</a></p>
+            <p><a href="#">Home 3</a></p>
+            <p><a href="#">Home 4</a></p>
+              </div></li>
+     <li><a href="#">MENU</a><span>&#8964;</span></li>
+     <li><a href="#">PAGES</a><span>&#8964;</span></li>
+     <li><a href="#">SHOP</a><span>&#8964;</span></li>
+     <li><a href="#">BLOG</a><span>&#8964;</span></li>
+     <li><a href="#" class="cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+     </a></li>
+  
+    </div>
+   </div>
+   <div class="contact-area">
+    <div class="contact-details">
+     <div class="call-contact">
+     <div class="contact-number">
+       <div class="call-icon">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+    </div>
+       <div class="telephone-no">
+       <b>+123-456 7899</b>
+       </div>
+     </div>
+     <div class="call-info">
+     <span>Contact us for reservation
+    </span>
+     </div>
+     </div>
+     <div class="booking-area">
+     <button class="book-btn">BOOK A TABLE</button>
+     </div>
+    </div>
+ </div>
+
+</div> 
+    <div class="banner-title">
+     <h1>Food  <span style="color: #bc906b;;">Menu</span></h1>
+      <h4>HOME - MENU</h4>
+    </div>
+    </div>
+    <div class="section-title">
+     <div class="section-info">
+       <img src="images/breakfast.jpg" alt="breakfast" width="100%" height="100%">
+     </div>
+    </div>
+    <section class="category">
+    <div class="menu-1">
+       <div class="cat-part-1">
+        <div class="items">
+          <div class="item-picture">
+           <img src="images/i1.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="item-info">
+            <p class="food-title">Spicy Club<span style="color: #adaaaa;">----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br> 
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i2.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Almond Baked Brie<span style="color: #adaaaa;">----------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i3.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Tuscan Flatbread<span style="color: #adaaaa;">-------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i4.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Flatbread Tuscan<span style="color: #adaaaa;">-------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+       </div>
+       <div class="cat-part-2">
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i5.jpg" alt="" width="100%" height="100%">
+           
+          </div>
+          <div class="item-info">
+            <p class="food-title">Flatbread<span style="color: #adaaaa;">-----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i6.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Nasi Lemak<span style="color: #adaaaa;">--------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i7.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Kaya Butter Toast<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item-picture">
+            <img src="images/i8.jpg" alt="" width="100%" height="100%">
+
+          </div>
+          <div class="item-info">
+            <p class="food-title">Flatbread<span style="color: #adaaaa;">-----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+            <p class="food-info">Pork, chicken and vegetable fried rolls served with lettuce wraps</p>
+          </div>
+        </div>
+       </div>
+    </div>
+    </section>
+    <div class="brand-breakfast">
+      <div class="top-item1">
+      </div>
+      <div class="top-item2">
+      </div>
+    </div>
+    <!-- end section -->
+    <!-- section-2-start -->
+    <div class="section-title">
+      <div class="section-info">
+        <img src="images/lunch.jpg" alt="breakfast" width="120%" height="120%">
+      </div>
+     </div>
+     <section class="category">
+      <div class="menu-1">
+         <div class="cat-part-1">
+          <div class="items">
+            <div class="item-picture">
+             <img src="images/l1.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="item-info">
+              <p class="food-title">Almond Baked Brie<span style="color: #adaaaa;">----------</span><span style="color: #bc906b;;">$ 39</span></p><br> 
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l2.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Hendrerit placerat<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l3.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Nutrition strategies<span style="color: #adaaaa;">-----------</span><span style="color: #bc906b;;">$ 29</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l4.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Certification courses<span style="color: #adaaaa;">---------</span><span style="color: #bc906b;;">$ 49</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+         </div>
+         <div class="cat-part-2">
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l5.jpg" alt="" width="100%" height="100%">
+             
+            </div>
+            <div class="item-info">
+              <p class="food-title">Flatbread<span style="color: #adaaaa;">----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l6.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Nasi Lemak<span style="color: #adaaaa;">-------------------</span><span style="color: #bc906b;;">$ 29</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l7.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Kaya Butter Toast<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="item-picture">
+              <img src="images/l8.jpg" alt="" width="100%" height="100%">
+  
+            </div>
+            <div class="item-info">
+              <p class="food-title">Flatbread<span style="color: #adaaaa;">-----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+              <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+            </div>
+          </div>
+         </div>
+      </div>
+      </section>
+      <div class="brand-breakfast">
+        <div class="top-lunch1">
+        </div>
+        <div class="top-lunch2">
+        </div>
+      </div>
+      <!-- new section-start -->
+      <div class="section-title">
+        <div class="section-info">
+          <img src="images/dinner.jpg" alt="breakfast" width="120%" height="120%">
+        </div>
+       </div>
+       <section class="category">
+        <div class="menu-1">
+           <div class="cat-part-1">
+            <div class="items">
+              <div class="item-picture">
+               <img src="images/d1.jpg" alt="" width="100%" height="100%">
+              </div>
+              <div class="item-info">
+                <p class="food-title">Almond Baked Brie<span style="color: #adaaaa;">----------</span><span style="color: #bc906b;;">$ 39</span></p><br> 
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d2.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Hendrerit placerat<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d3.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Nutrition strategies<span style="color: #adaaaa;">-----------</span><span style="color: #bc906b;;">$ 29</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d4.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Certification courses<span style="color: #adaaaa;">---------</span><span style="color: #bc906b;;">$ 49</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+           </div>
+           <div class="cat-part-2">
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d5.jpg" alt="" width="100%" height="100%">
+               
+              </div>
+              <div class="item-info">
+                <p class="food-title">Flatbread<span style="color: #adaaaa;">----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d6.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Nasi Lemak<span style="color: #adaaaa;">-------------------</span><span style="color: #bc906b;;">$ 29</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d7.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Kaya Butter Toast<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="item-picture">
+                <img src="images/d8.jpg" alt="" width="100%" height="100%">
+    
+              </div>
+              <div class="item-info">
+                <p class="food-title">Flatbread<span style="color: #adaaaa;">-----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+              </div>
+            </div>
+           </div>
+        </div>  
+        </section>
+        <div class="brand-breakfast">
+          <div class="top-dinner-1">
+          </div>
+          <div class="top-dinner-2">
+          </div>
+        </div>
+        <!-- bevrages section -->
+        <div class="section-title">
+          <div class="section-info">
+            <img src="images/bevrages.jpg" alt="breakfast" width="100%" height="120%">
+          </div>
+         </div>
+         <section class="category">
+          <div class="menu-1">
+             <div class="cat-part-1">
+              <div class="items">
+                <div class="item-picture">
+                 <img src="images/br1.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Beef Soup<span style="color: #adaaaa;">----------------------</span><span style="color: #bc906b;;">$ 42</span></p><br> 
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br2.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Crab Claw Soup Brie<span style="color: #adaaaa;">--------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br3.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Hunter Pastry<span style="color: #adaaaa;">-----------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br4.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Tomato Soup<span style="color: #adaaaa;">------------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+             </div>
+             <div class="cat-part-2">
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br5.jpg" alt="" width="100%" height="100%">
+                 
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Almond Baked Brie<span style="color: #adaaaa;">-----------</span><span style="color: #bc906b;;">$ 39</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br6.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Hendrerit placerat<span style="color: #adaaaa;">-------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br7.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Nutrition strategies<span style="color: #adaaaa;">------------</span><span style="color: #bc906b;;">$ 42</span></p><br>
+                  <p class="food-info">National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+              <div class="items">
+                <div class="item-picture">
+                  <img src="images/br8.jpg" alt="" width="100%" height="100%">
+      
+                </div>
+                <div class="item-info">
+                  <p class="food-title">Certification courses<span style="color: #adaaaa;">----------</span><span style="color: #bc906b;;">$ 49</span></p>
+                  <p class="food-info"></p>National dish of Malaysia: coconut rice, fried anchovies, cucumber</p>
+                </div>
+              </div>
+             </div>
+          </div>
+          </section>
+          <div class="brand-breakfast">
+            <div class="top-item1">
+            </div>
+            <div class="top-item2">
+            </div>
+          </div>
+          <footer>
+            <div class="footer-top">
+            <div class="footer-logo">
+      <img src="images/footer-logo.png" alt="" width="100%" height="100%">
+            </div>
+            <div class="footer-info">
+            <p>These are thei tastiest restaurants in this city right now. So we scour the city every day for great eats, great value.</p>
+            </div>
+            <div class="footer-form">
+              <input type="email" name="email" placeholder="your Email Address">
+              <div class="send-btn">
+                <i class="fa fa-paper-plane"></i>
+              </div>
+            </div>
+            </div>
+            <div class="footer-end">
+           <div class="rights">
+           <p>© 2022, <span style="color: #bc906b;">deliciko.</span> All rights reserved</p>
+           </div>
+           <div class="media-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+           <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+           <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+           </div>
+            </div>
+          </footer>
+</body>
+</html>

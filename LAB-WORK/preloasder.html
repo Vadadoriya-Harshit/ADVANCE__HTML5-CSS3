@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-        }
-        body{
-            /* background: linear-gradient(red,blue); */
-          background-attachment: fixed;
-        
-        }
-        .main{
-            height: 150px;
-            width: 150px;
-            background: transparent;
-            border: 14px solid transparent;
-            border-top: 10px solid red;
-            margin: 200px auto;
-            padding: 12px;
-            animation-name: preloader;
-            border-radius: 50%;
-            animation: preloader 2s infinite linear;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    .main{
+      width: 90px;
+      height: 90px;
+      /* border: 1px solid black; */
+      margin: 223px auto;
+      position: relative;
+      border-top: 10px solid red;
+      border-radius: 50%;
+      animation: play 2s infinite linear;
+     
+    }
+    .a{
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      top: 10%;
+      left: 12%;
+      border-top: 10px solid green;
+      border-radius: 50%;
+      animation: play1 2s infinite linear;
+      
+    }
+    .b{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 13%;
+      left: 14%;
+      border-top: 10px solid blue;
+      border-radius: 50%;
+      animation: play3 1s infinite linear;
 
-        }
-        .a{
-            height: 100px;
-            width: 100px;
-            background: transparent;
-            border: 14px solid transparent;
-            border-top: 10px solid green;
-            padding: 9px;
-            border-radius: 50%;
-            /* animation: preloader 5s infinite linear; */
+    }
+    @keyframes play{
+      from{
+        transform: rotate(0deg);
 
-        }
-        .b{
-            height: 50px;
-            width: 50px;
-            background: transparent;
-          
+      }
+      to{
+        transform: rotate(365deg);
 
-            border: 12px solid transparent;
-            border-top: 12px solid blue;
-            border-radius: 50%;
-            /* box-shadow: 0 0 20px #000; */
+      }
+      
+    }
+    @keyframes play3{
+      from{
+        transform: rotate(0deg);
 
-            /* animation: preloader 5s infinite; */
+      }
+      to{
+        transform: rotate(365deg);
 
-        }
-        @keyframes preloader {
-            from{
-              transform: rotate(0deg);
-            }
-            to{
-                transform: rotate(365deg);
-            
-            }
-        }
-          
-    </style>
+      }
+      
+    }
+    @keyframes play1{
+      from{
+        transform: rotate(360deg);
+
+      }
+      to{
+        transform: rotate(-360deg);
+
+      }
+      
+    }
+  </style>
 </head>
 <body>
-    <div class="main">
-<div class="a">
-  <div class="b">
+  <div class="main">
+    <div class="a">
+      <div class="b">
 
-  </div>
-</div>
+      </div>
     </div>
+  </div>
 </body>
 </html>
