@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="media.css">
+    <style>
+      *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+   header{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    /* border: 1px solid black; */
+   }
+   .logo{
+  width: 30%;
+  height: 65px;
+  padding-top: 12px;
+ /* border: 1px solid black; */
+ display: flex;
+   }
+nav{
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+   }
+   .btn{
+    width: 20%;
+   height: inherit;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+   }
+   nav ul li{
+    display: inline-block;
+    margin-inline: 12px;
+    font-size: 13px;
+   
+   }
+  nav ul li a{
+   text-decoration: none;
+   color: #5f88a3;
+   }
+ 
+   .btn button {
+    width: 142px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #f3223b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.logo img{
+ object-fit: contain;
+ height: 56%;
+}
+/* banner */
+.banner{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: #1a5ca3;;
+  color: white;
+}
+.banner-info{
+  width: 35%;
+  border: 0px solid black;
+  height: inherit;
+
+}
+.banner-bg{
+  width: 65%;
+  height: inherit;
+  border: 0px solid black;
+
+}
+.section-info{
+  width: 100%;
+  height: auto;
+  border: 0px solid black;
+  text-align: right;
+  margin-top: 135px;
+}
+.section-info .info-h1-p{
+width: 100%;
+height: auto;
+border: 0px solid black;
+padding-bottom: 22px;
+}
+.section-info h1{
+  font-size: 30px;
+}
+.section-info p{
+ text-align: left;
+ text-indent: 87px;
+ text-align: center;
+ font-size: 18px;
+ padding-top: 3px;
+ color: #47a0ff;
+}
+.section-info .order-btn{
+  width: 100%;
+height: auto;
+border: 0px solid black;
+padding-bottom: 12px;
+}
+.section-info .info-img{
+  width: 100%;
+height: 52%;
+border: 0px solid black;
+padding-bottom: 12px;
+}
+
+.section-info button{
+    width: 20em;
+    border: 0;
+    height: 3em;
+    border-radius: 2px;
+    background-color: #1fb31a;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;  
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+.home-btn{
+  width: 100%;
+  height: 36px;
+  padding-top: 10px;
+  margin-top: 7px;
+  padding-inline-start: 18px;
+  font-size: 22px;
+  background-color: #eee;
+  font-size: 12px;
+  color: #0275d8;;
+}
+.home-btn a{
+text-decoration: none;
+}
+.offers{
+  width: 100%;
+  height: auto;
+}
+.offers h2,.explore h2{
+    color: #708aa5;
+ padding: 33px 0px 20px 90px;
+   font-weight: bolder;
+}
+.coupons{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+.coupons-item{
+  width: 504px;
+  height: 251px;
+  margin: 12px;
+  position: relative;
+}
+.back-slide-btn{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+   top: 35%; 
+  left: -7%; 
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forward-slide-btn{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+   top: 35%; 
+  right: -7%; 
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+.explore{
+  width: 100%;
+  height: auto;
+}
+.explore-section{
+  width: 100%;
+  height: inherit;
+  border: 0px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.explore-cards{
+  height: 283px;
+  width: 255px;
+  border: 1px dotted gray;
+  margin: 8px;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.21;
+    text-align: center;
+    color: #2b4547;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 24px;
+}
+.book-now {
+    display: flex;
+    justify-content: center;
+    color: #de042e;
+    border-top: 1px dotted #979797;
+    font-weight: 800;
+    padding-top: 3px;
+}
+.card-img1,.card-img2,.card-img3,.card-img4{
+  width: 100%;
+  height: 45%;
+  background-image: url(images/explore1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-img2{
+  background-image: url(images/store.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.card-img3{
+  background-image: url(images/birthday.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.card-img4{
+  background-image: url(images/catering.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.card-heading{
+  width: 100%;
+  height: 10%;
+  
+}
+.card-info{
+  width: 100%;
+  height: 33%;
+  
+}
+.card-btn{
+  width: 100%;
+  height: 12%;
+  border: 1px dotted gray;
+}
+.banner-2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ecf4fc;
+  object-fit: cover;
+  margin-top: 64px;
+}
+.banner2-img{
+  width: 50%;
+  height: inherit;
+
+}
+.banner2-info{
+  width: 50%;
+  height: inherit;
+}
+.app-download{
+    font-family: sans-serif;
+    color: #59688c;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 84px;
+    text-align: center;
+}
+.banner2-info .p{
+    font-size: 27px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    margin-left: 79px;
+   margin-top: 24px;
+}
+.play-logo,.apple-logo{
+  margin-top: 34px;
+  margin-left: 84px;
+  letter-spacing: 34px;
+}
+.dominos-content{
+  width: 100%;
+  height: auto;
+padding-top: 34px;
+padding-bottom: 23px;
+}
+.delivery-content,.choice-content,.fast-delivery,.Franchise-info{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+.content-h3 {
+    color: #006491;
+    font-size: 30px;
+    padding-top: 34px;
+     padding-bottom: 34px;
+}
+.content-p {
+    color: #54565b;
+    background: 0 0;
+    border-width: 0;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.footer-top{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #222e3a;
+  color: white;
+}
+.coppyright-section{
+  height: 10%;
+  text-align: center;
+  background-color: #222e3a;
+}
+.coppyright-section p{
+  line-height: 43px;
+  color: #546273;
+  
+}
+.container-link {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.link-item {
+    border-style: groove;
+    background-color: #f3ecec;
+    border-radius: 6px;
+    padding: 4px;
+    display: inline-block;
+    margin: 2px;
+  
+}
+a{
+ color: black;
+}
+.label {
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.link-item {
+    border-style: groove;
+    background-color: #f3ecec;
+    border-radius: 6px;
+    padding: 4px;
+    display: inline-block;
+    margin: 2px;
+}
+footer{
+  width: 100%;
+  height: auto;
+  margin-top: 23px;
+}
+.footer-top ul li{ 
+  padding: 12px;
+}
+
+.footer-top ul li a{
+  color: white;
+}
+.footer-top ul{
+  padding-top: 22px;
+  margin-left: 39px;
+  list-style-type: none;
+}
+
+.footer-menu-list-1,.footer-menu-list-2{
+  width: 14%;
+  height: auto;
+  /* border: 1px solid black; */
+  color: black;
+}
+.footer-menu-list-3,.footer-menu-list-4{
+  width: 20%;
+  height: auto;
+  color: black;
+}
+.footer-menu-list-5{
+  width: 18%;
+  height: auto;
+  color: black;
+}
+.footer-menu-list-6{
+  width: 14%;
+  height: auto;
+  color: black;
+}
+.footer-menu-list-6 ul li{
+  display: inline-block;
+ padding: 0%;
+ margin: 0%;
+ text-align: left;
+}
+.footer-menu-list-6 ul{
+  margin: 0%;
+}
+.footer-top ul span {
+  color: #546273;
+  padding-left: 10px;
+   display: inline-block;
+   padding-bottom: 23px;
+}
+.menu-bar{
+display: none;
+}
+</style>
+</head>
+<body>
+  <!-- Header start -->
+   <header>
+    <div class="menu-bar">
+      <a href="#"><img src="https://img.icons8.com/external-others-inmotus-design/67/null/external-Menu-round-icons-others-inmotus-design-9.png"/></a>
+  </div>
+    <div class="logo">
+  <img src="images/Logo.png" alt="" width="100%" height="57%">
+    </div>
+    <nav>
+     <ul>
+      <li><a href="#">OUR MENU</a></li>
+      <li><a href="#">DOMINO'S STORE</a></li>
+      <li><a href="#">GIFT CARD</a></li>
+      <li><a href="#">CORPORATE ENQUIRY</a></li>
+      <li><a href="#">CONTACT</a></li>
+     </ul>
+    </nav>
+    <div class="btn">
+  <button>Download App</button>
+    </div>
+   </header>
+   <!-- header end -->
+   <!-- banner-start -->
+   <section class="banner">
+   <div class="banner-info">
+      <div class="section-info">
+        <div class="info-h1-p">
+            <h1>Domino's online ordering
+            </h1>
+            <p>Yummy pizza delivered fast & fresh</p>
+        </div>
+        <div class="order-btn">
+          <button>ORDER ONLINE NOW</button>
+        </div>
+        <div class="info-img">
+          <img src="images/info-baner.jpg" alt="" width="80%" height="80%">
+        </div>
+        
+      </div>
+   </div>
+
+   <div class="banner-bg">
+ <img src="images/header_bg@2x.png" alt="" width="100%" height="100%">
+   </div>
+   </section>
+   <div class="home-btn">
+  <a href="#">Home</a>
+   </div>
+  <section class="offers">
+    <h2>Coupons &amp; Offers</h2>
+    <div class="coupons">
+  <div class="coupons-item">
+   <img src="images/prd1.jpg" alt="" width="100%" height="100%">
+  <div class="back-slide-btn">
+   <a href="#"><</a>
+  </div>
+  </div>
+  <div class="coupons-item">
+    <img src="images/prd2.jpg" alt="" width="100%" height="100%">
+    <div class="forward-slide-btn">
+      <a href="#">></a>
+     </div>
+  </div>
+    </div>
+  </section>
+  <!-- exolore section start -->
+  <div class="explore">
+    <h2>Explore</h2>
+    <div class="explore-section">
+   <div class="explore-cards">
+    <div class="card-img1">
+    </div>
+    <div class="card-heading">
+      <h3 align="center">Our Menu</h3>
+    
+    </div>
+   <div class="card-info">
+    <p class="content">Explore our range of delicious Pizzas, delivered in 30 minutes!</p>
+   </div>
+   <div class="card-btn">
+    <a class="book-now" href="/menu">
+      <span>DISCOVER PIZZA</span>
+    </a>
+   </div>
+   </div>
+   <div class="explore-cards">
+    <div class="card-img2">
+     
+    </div>
+    <div class="card-heading">
+      <h3 align="center">NEARBY STORE</h3>
+
+    </div>
+   <div class="card-info">
+    <p class="content">Find a Domino’s Pizza restaurant near you</p>
+   </div>
+   <div class="card-btn">
+    <a class="book-now" href="/store-location/">
+      <span>FIND DOMINO'S STORE</span>
+    </a>
+   </div>
+   </div>
+   <div class="explore-cards">
+    <div class="card-img3">
+    </div>
+    <div class="card-heading">
+      <h3 align="center">BIRTHDAY PARTY</h3>
+    </div>
+   <div class="card-info">
+    <p class="content">Celebrate the joy of birthday with Fresh &amp; Hot pizzas</p>
+   </div>
+   <div class="card-btn">
+    <a class="book-now" href="/bday-party">
+      <span>BOOK NOW</span>
+    </a>
+   </div>
+   </div>
+   <div class="explore-cards">
+    <div class="card-img4">
+     
+    </div>
+    <div class="card-heading">
+      <h3 align="center">CATERING</h3>
+    
+    </div>
+   <div class="card-info">
+    <p class="content">Live Domino's Kitchen for weddings / corporate events</p>
+   </div>
+   <div class="card-btn">
+    <a class="book-now" href="/wedding">
+      <span>BOOK NOW</span>
+    </a>
+   </div>
+   </div>
+    </div>
+ 
+  </div>
+  <!-- exolore section end -->
+  <!-- banner-2-start -->
+    <div class="banner-2">
+   <div class="banner2-img">
+   <img src="images/banner-2.png" alt="" width="100%" height="100%">
+   </div>
+   <div class="banner2-info">
+    <h4 class="app-download">Unlock Exclusive Offers</h4>
+    <div class="p">
+    <p>For lightning fast ordering experience download the Domino’s app</p></div>
+    <div class="play-logo">
+   <a href="#"> <img src="https://digitalclassworld.com/public/assets/newimg/playstore.png" alt="Download app" width="165" height="50"></a>
+    <a href="#"> <img src="images/apple.png" alt="" width="165" height="50"></a>
+       </div>
+   </div>
+  </div>
+  <!-- banner-2-end -->
+  <!-- domino's info section -->
+   <div class="dominos-content">
+      <div class="delivery-content">
+        <h3 class="content-h3">Domino's Pizza: Delivering Happiness</h3>
+        <p class="content-p">What’s better than having a crispy melty pizza, you ask?</p><br>
+        <p class="content-p">Having that crispy and melty pizza in the comfort of your own home with the ones you love, we say.</p><br>
+        <p class="content-p">With Domino's it is always “Rishton ka time”. Whether it's a treat for your promotion, a kid topping his class or winning the heart of your wife who is too tired to cook after a long day at work! A cheesy slice of the best pizza is all one needs to put things into perspective and start any celebration. Plus, you do not even need to rush to the restaurant to have one now. A call, a few clicks on our website or a few touches on the mobile screen is all you have to do to have that tempting, light-on-the-pocket pizza at your doorstep.</p><br>
+        <p class="content-p">There is something for everyone here. The vegetarians, non-vegetarians, the sides’ lovers and also the ones who love to have something sweet by the time they reach the last bite of the last slice of pizza slice.
+        </p>
+      </div>
+      <div class="choice-content">
+        <h3 class="content-h3">What We Need - More Choice. More Fun.</h3>
+        <p class="content-p">No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken tikka- the options are almost endless, anything and everything you can think of that too on top of the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic hand-tossed crust or a fresh pan pizza. Because just like a pizza, Domino's understands you.</p><br>
+        <p class="content-p">And to shoo away those end-of-the-month blues while placing your order with our pizza restaurant, check out the everyday pizzas from pizza mania combos with everyday value offer of 2 pizzas starting at just ₹99 (regular size) and ₹199 (medium size) each. </p>
+      </div>
+      <div class="fast-delivery">
+        <h3 class="content-h3">The promise of 30-minute Delivery</h3>
+        <p class="content-p">The icing on the cake or more aptly the extra cheese on your already fabulous pizza is that Domino’s takes only half an hour for its pizza delivery service. Don’t believe us? Time it if you please. With 1250+ stores present all over India, you can have a Domino’s pizza even while traveling on a train. Yes, you are reading it right, you can enjoy pizza on train too.
+        </p><br>
+        <p class="content-p">So stop googling for the “pizza shops near me” and order from your nearest pizza outlet to have a hot box of pizza on your table in the next 30 minutes, or berth at the next halting station.
+        </p>
+      </div>
+      <div class="Franchise-info">
+        <h3 class="content-h3">Franchise Information</h3>
+        <p class="content-p">Jubilant FoodWorks Limited is the Master Franchisee of Domino’s Pizza in India, Bangladesh, Sri Lanka and Nepal with sole and exclusive rights to own and operate Domino’s Pizza restaurants in these territories. For any franchise-related queries, kindly email us directly at dominos.franchise@jublfood.com
+        </p><br>
+        <p class="content-p">We have come across a few instances of fraudsters posing as Jubilant FoodWorks and asking for payment from gullible investors against the promise of a Domino’s franchise. We therefore caution and urge all interested parties to be careful and vigilant and interact only with the email id mentioned above. Anyone dealing with such fraudsters shall be doing so on their own peril, risk and consequences.
+        </p><br>
+        <p class="content-p">Neither Jubilant FoodWorks nor its Directors/Officers shall be responsible for any loss, harm, damage or fraud that occurs or may occur or arise to any person who decides to access such fake websites, or deal with them.</p>
+      </div>
+   </div>
+  <!-- domino's info section end -->
+<!-- menu-section -->
+   <div class="container-link" id="container-footer">
+    <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu" target="_blank">Menu</a></span>
+    <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas" target="_blank">Veg Pizza</a></span>
+    <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/non-veg-pizzas" target="_blank">Chicken Pizza</a></span>
+    <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/pasta" target="_blank">Pasta</a></span>
+    <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts" target="_blank">Pizza Crust</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/beverages" target="_blank">Beverages</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/pizza-mania" target="_blank">Pizza Mania</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/burger-pizza" target="_blank">Burger Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/farm-house" target="_blank">Farm House pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/margherita" target="_blank">Veg Margherita Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/cheese-n-corn" target="_blank">Cheese Corn Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/double-cheese-margherita" target="_blank">Double Cheese Margherita Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/paneer-makhani" target="_blank">Paneer Makhani Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/lava-cake" target="_blank">Choco Lava Cake</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/chicken/roasted-chicken-wings-peri-peri" target="_blank">Roasted Chicken Wings Peri Peri</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/garlic-breadsticks" target="_blank">Garlic Bread</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/stuffed-garlic-bread" target="_blank">Stuffed Garlic Bread</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/veg-parcel" target="_blank">Paneer Zingy Parcel</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/fresh-pan-pizza" target="_blank">Fresh Pan Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/new-hand-tossed" target="_blank">New Hand Tossed Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/classic-hand-tossed" target="_blank">Classic Hand Tossed Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/pizza-mania/golden-corn" target="_blank">Golden Corn Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-toppings/extra-cheese" target="_blank">Extra Cheese Pizza</a></span>
+    <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/great-deals/online-pizza-coupons/dominos-wednesday-offers" target="_blank">Wednesday Offer - Pizza Buy 1 Get 1</a></span>
+    </div>
+    <!-- menu-section end -->
+    <!-- footer-start -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-menu-list-1">
+
+         <ul>
+               <span>Menu</span>
+            <li><a href="#">Veg Pizza</a></li>
+            <li><a href="#">Chicken Pizza</a></li>
+            <li><a href="#">Pasta</a></li>
+            <li><a href="#">Pizza Crust</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">pizza-mania</a></li>
+            <li><a href="#">Burger Pizza</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu-list-2">
+          <ul>
+             <span>COMPANY</span>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Investor</a></li>
+            <li><a href="#">FeedBack</a></li>
+            <li><a href="#">Ads</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu-list-3">
+          <ul>
+               <span>Restaurants Near Me</span>
+            <li><a href="#">Pizza Near Me</a></li>
+            <li><a href="#">Food Near Me</a></li>
+            <li><a href="#">Food Delivery</a></li>
+            <li><a href="#">Italian Food</a></li>
+            <li><a href="#">Order Food Online</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu-list-4">
+          <ul>
+              <span>Gift Card</span>
+            <li><a href="#">Card Balance Enquiry</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Virtual Pizza Party</a></li>
+            <li><a href="#">E-Gift Vouchers</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu-list-5">
+          <ul>
+              <span>Disclaimer</span>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul> 
+        </div>
+        <div class="footer-menu-list-6">
+          <ul>
+           <li> <a href="#"><img src="https://img.icons8.com/office/30/null/facebook.png"/></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/color/33/null/twitter-circled--v1.png"/></a></li>
+           <li><a href="#"> <img src="https://img.icons8.com/fluency/33/null/instagram-new.png"/></a></li>
+           <li><a href="#"> <img src="https://img.icons8.com/fluency/33/null/youtube-play.png"/></a></li>
+            </ul>
+            <ul>
+            <!-- <li><img src="https://www.dominos.co.in/assets/hello_dominos_20210615@2x.png" alt="" width="150px" height="50px"></li> -->
+            </ul>
+        </div>
+      </div>
+      <div class="coppyright-section">
+        <p>All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+      
+      </div> 
+    </footer>
+    <!-- footer-end -->
+</body> 
+</html>

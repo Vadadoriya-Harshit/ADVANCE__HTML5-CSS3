@@ -1,0 +1,380 @@
+@media (max-width:400px)
+{
+ 
+  .section-info button {
+    width: 90%;
+    border: 0;
+    height: 3em;
+    border-radius: 2px;
+    background-color: #1fb31a;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+ nav{
+  display: none;
+ }
+ .menu-bar{
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+ 
+}
+@media (max-width: 575px) {
+  /* styles for extra small devices */
+  header{
+    flex-wrap: wrap;
+    height: auto;
+  }
+    .logo,nav,.btn{
+   width: 100%;
+  }
+  .logo img{
+    width: 100%;
+    height: 60%;
+  }
+   nav ul li{
+    display: block;
+    /* background-color: aqua; */
+    border-radius: 23px;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 12px 123px 12px 123px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   }
+   .btn{
+    padding: 12px;
+   }
+   .home-btn{
+    font-size: 22px;
+   }
+   nav li a:hover{
+    color: white;
+   }
+  nav li:hover{
+    background-color: skyblue;
+  }
+  .banner{
+   flex-wrap: wrap;
+ }
+  .banner-info{
+   width: 100%;
+ }
+ .section-info{
+   text-align: center;
+ }
+ .section-info p{
+  text-indent: 0px;
+ }
+ .banner-bg{ 
+   width: 100%;
+ }   
+ .coupons{
+  flex-wrap: wrap;
+  }
+  .offers h2{
+    text-align: center;
+    padding-left: 0;
+  }
+  .coupons-item{
+  width: 100%;
+  }
+  .forward-slide-btn,.back-slide-btn{
+    display: none;
+  }
+.home-btn{
+  text-align: center;
+}
+.explore h2{
+  text-align: center;
+  padding: 0%;
+  padding-bottom: 22px;
+}
+.explore-cards{
+  width: 100%;
+}
+.banner2-img{
+  width: 100%;
+}
+.banner2-info{
+  width: 100%;
+}
+.app-download{
+padding-top: 22px;
+}
+.banner2-info .p{
+  font-size: 22px;
+}
+.delivery-content,.choice-content,.fast-delivery,.Franchise-info{
+  width: 100%;
+  padding-inline: 12px;
+}
+.content-h3{
+  text-align: center;
+}
+footer{
+  width: 100%;
+}
+.footer-menu-list-1,.footer-menu-list-2,.footer-menu-list-3,.footer-menu-list-4,.footer-menu-list-5,.footer-menu-list-6{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+}
+
+@media (min-width: 576px) {
+  .menu-bar{
+      width: 10%;
+      display: block;
+  }
+  .logo{
+    width: 70%;
+  }
+  .logo img{
+    height: 33px;
+  }
+  nav{
+    display: none;
+  }
+  .btn{
+    width: 20%;
+  }
+  .banner-bg{
+    width: 100%;
+    display: none;
+  }
+  
+  .banner-info{
+    width: 100%;
+    background-color: white;
+    background: url(images/header_bg@2x.png);
+    background-size: 100% 100%;
+    background-position: 0px 53px;
+    background-repeat: no-repeat;
+  }
+ .section-info{
+  text-align: center;
+ }
+ .section-info p{
+  text-indent: 0%;
+  color: white;
+ }
+  .section-info img{
+    width: 55%;
+  }
+  .section-info button {
+    width: 20em;
+    height: 3em;
+}
+.home-btn{
+  display: none;
+}
+.back-slide-btn,.forward-slide-btn{
+  display: none;
+  }
+.offers h2,.explore h2{
+    text-align: center;   
+    padding-inline: 0px;
+    font-size: 33px;
+  }
+  .coupons {
+    width: 100%;
+    padding: 0%;
+}
+.coupons-item {
+  width: 100%;
+}
+.explore-cards{
+  width: 70%;
+}
+.banner2-img{
+  width: 100%;
+}
+.banner2-info{
+  width: 100%;
+  padding-bottom: 22px;
+}
+.app-download{
+  padding-top: 22px;
+  }
+  .banner2-info .p{
+    font-size: 22px;
+  }
+  .banner2-img img{
+    height: 90%;
+    width: 90%;
+  }
+  .banner2-info{
+    justify-content: right;
+  }
+  .delivery-content,.choice-content,.fast-delivery,.Franchise-info{
+    width: 100%;
+    padding-inline: 12px;
+  }
+  .content-h3{
+    text-align: center;
+  }
+  footer{
+    width: 100%;
+  }
+  .footer-menu-list-1,.footer-menu-list-2,.footer-menu-list-3,.footer-menu-list-4,.footer-menu-list-5,.footer-menu-list-6{
+    width: 30%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+}
+@media (min-width: 768px) {
+  /* styles for medium devices */
+.coupons{
+  flex-wrap: nowrap;
+}
+.section-info img{
+  width: 45%;
+}
+.explore h2,.offers h2{
+  text-align: left;
+  text-indent: 43px;
+  padding-bottom: 22px;
+}
+.explore-cards{
+  width: 44%;
+}
+.banner-info{
+  background-position: 0px 34px;
+}
+.banner2-img{
+width: 55%;
+}
+.banner2-img img{
+  height: 100%;
+  width: 100%;
+}
+.banner2-info{
+  width: 45%
+
+}
+}
+
+
+@media (min-width: 992px) {
+  /* styles for large devices */
+  .banner2-img{
+    width: 55%;
+  }
+  .section-info img{
+    width: 40%;
+  }
+  .banner2-info{
+    width: 45%;
+    padding-top: 43px;
+  }
+  .content-h3{
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* styles for extra large devices */
+  header{
+    flex-wrap: nowrap;
+    height: auto;
+  }
+    .logo{
+   width: 30%;
+  }
+  .nav{
+    width: 50%;
+   }
+   .btn{
+    width: 20%;
+      
+   }
+   .home-btn{
+    display: block;
+   }
+   .logo img{
+    object-fit: contain;
+    height: 56%;
+   }
+   .menu-bar{
+    display: none;
+   }
+   nav{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   nav ul li{
+    display: inline-block;
+    text-align: center;
+   }
+
+  .banner-bg{
+    display: block;
+  }
+  .banner-info{
+    width: 35%;
+  }
+  .banner-bg{
+    width: 65%;
+  }
+  .section-info{
+    text-align: right;
+  }
+  .banner-info{
+    background: none;
+  }
+  .section-info img{
+    width: 79%;
+  }
+  .section-info p{
+ color: #47a0ff;
+  }
+  .coupons-item{
+    width: 504px;
+  }
+  .back-slide-btn{
+  display: block;
+  top: 35%; 
+  left: -7%; 
+  display: flex;
+
+  }
+  .forward-slide-btn{
+    display: block;
+    top: 35%; 
+    right: -7%; 
+    display: flex;
+  }
+  .explore-cards{
+    width: 255px;
+  }
+  .offers h2,.explore h2{
+ padding: 33px 0px 20px 90px;
+}
+.banner2-info{
+  padding-top: 134px;
+}
+.footer-menu-list-1,.footer-menu-list-2{
+  width: 14%;
+  height: auto;
+  /* border: 1px solid black; */
+  color: black;
+}
+.footer-menu-list-3,.footer-menu-list-4{
+  width: 20%;
+}
+.footer-menu-list-5{
+  width: 18%;
+}
+.footer-menu-list-6{
+  width: 14%;
+}
+}
+
