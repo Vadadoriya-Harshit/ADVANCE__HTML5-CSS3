@@ -7,7 +7,7 @@
 .header{
     width: 100%;
     height: 123px;
-    border: 0px solid black;
+    border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 5.3fr 3.5fr;
     position: absolute;
@@ -15,20 +15,22 @@
     left: 0%;
 }
 .logoarea{
-    border: 0px solid black;
+    border: 1px solid black;
     height: 123px;
      padding: 19px;
     background-color: white;
 }
 .nav-menu{
-   border: 0px solid black;
+   border: 1px solid black;
    height: inherit;
+   background-color: white;
+
 }
 .primary-menu{
     height: 50%;
     width: 100%;
     vertical-align: auto;
-    border: 0px solid black;
+    border: 1px solid black;
     padding-left: 44px;
    transform: translateY(43px);
 }
@@ -39,14 +41,14 @@
      margin-left: 20px;
     margin-right: 12px; 
    position: relative;
-   color: white;
+   color: black;
 }
 li a{
     display: inline-block;
     text-decoration: none;
     margin-left: 13px;  
     margin-right: 12px;
-    color: white;
+    color: black;
 }
 .primary-menu span{
     position: absolute;
@@ -54,13 +56,14 @@ li a{
    right: -2%;
 }
 .contact-area{
-    border: 0px solid black;
+    border: 1px solid black;
     width: 100%;
+    background-color: white;
 }
 .contact-details{
     height: 50%;
     width: inherit;
-    border: 0px solid black;
+    border: 1px solid black;
     display: grid;
     grid-template-columns: 5fr 5fr;
     grid-template-rows: 100%;
@@ -71,44 +74,44 @@ li a{
    text-align: center;
 }
 .cart a{
-    color: black;
+    color: white;
     line-height: 54px;
 }
 .call-contact{
-    border: 0px solid black;
+    border: 1px solid black;
    height: 100%; 
    display: grid;grid-template-rows: 50% 50%;
    
 }
 .contact-number{
-    border: 0px solid black;
+    border: 1px solid black;
     display: grid;
     grid-template-columns: 2fr 9fr;
     grid-template-rows: 100%;
-    color: white;
+    color: black;
 }
 .call-number{
-border: 0px solid black;
+border: 1px solid black;
 }
 .call-icon{
-border: 0px solid black;
+border: 1px solid black;
 font-size: 27px;
 text-align: center;
 }
 .telephone-no{
-border: 0px solid black;
+border: 1px solid black;
 font-size: 23px;
 text-align: left;
 }
 .call-info{
- border: 0px solid black;
+ border: 1px solid black;
  font-size: 19px;
  text-align: left;
  line-height: 26px;
- color: white;
+ color: black;
 }
 .booking-area{
-   border: 0px solid black;
+   border: 1px solid black;
    height: 100%;
    text-align: center;
    line-height: 57px;
@@ -358,3 +361,84 @@ background-image: url(images/top-d1.jpg);
 .top-dinner-2{
 background-image: url(images/top-d2.jpg);
 }
+footer{
+    width: 100%;
+    height: 270px;
+    background: black;
+    border: 0px solid white;
+    display: grid;
+    grid-template-rows: 70% 30%;
+ 
+   }
+   .footer-top{
+    border: 0px solid white;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 2fr 3fr 5fr;
+   }
+   .footer-logo{
+    border: 0px solid white;
+    padding: 42px;
+   }
+   .footer-info{
+    border: 0px solid white;
+    color: white;
+    padding-top: 74px;
+    line-height: 22px;
+    font-size: 16px;
+   }
+   .footer-form{
+    border: 0px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .footer-end{
+    border: 0px solid white;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    color: #495057;;
+    font-size: 22px;
+    text-align: center;
+    line-height: 90px;
+    letter-spacing: 8px;
+   }
+   .footer-end a{
+    text-align: center;
+    color: #495057;;
+   }
+    .rights{
+      border: 0px solid white;
+      color: white;
+      line-height: 105px;
+      text-indent: 47px;
+    }
+     .media-icons{
+      border: 0px solid white;
+
+     }
+ input[type="email"] {
+height: 47px;
+width: 260px;
+background-color: #495057;
+border: none;
+padding-left: 23px;
+color: white;
+}
+input[type="email"]{
+outline: none;
+}
+   .send-btn{
+    height: 47px;
+    width: 42px;
+  background: #bc906b;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  transition: 0.3s;
+ 
+   }
+   .send-btn:hover{
+    background: black;
+    transition: 0.3s;
+   }
