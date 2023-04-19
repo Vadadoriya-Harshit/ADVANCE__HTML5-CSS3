@@ -1,0 +1,101 @@
+@media (max-width: 575px) {
+   header{
+    grid-template-columns: 8.3fr 1.7fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   }
+   nav{
+    display: none;
+   }
+   .logo-area img{
+    width: 40%;
+    padding-left: 34px;
+   }
+   .logo-area{
+    display: flex;
+    justify-content: center;
+   }
+   .logo-area a{
+    display: block;
+   }
+   .choice-section{
+    transform: translate(0);
+   }
+   .banner-slider,.slider-info{
+      height: 520px;
+   }
+.banner-slider{
+   background-size: cover;
+}
+.choice-section{
+  margin-top: 23px;
+  width: auto;
+  grid-template-columns: 1fr;
+  height: auto;
+}
+.choice-section{
+   background: transparent;
+}
+.choice-left,.choice-right{
+   height: 48px;
+   background-color: white;
+   margin: 12px;
+   padding-top: 13px;
+}
+.slider-info h1,.slider-info p{
+   font-size: 26px;
+}
+.slider-info p,.slider-info h4{
+   font-size: 26px;
+}
+.slider-info h5{
+   font-size: 19px;
+}
+.slider-info h5{
+   padding: 0%;
+}
+.offers-cards{
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+}
+.about-lapinos{
+   grid-template-columns: 1fr;
+   grid-template-rows: 50% 50%;
+}
+.common-heading{
+   text-align: center;
+}
+.img-of-article{
+   padding-top: 9px;
+}
+
+.banner-2 img{
+   padding-top: 0%;
+   padding-inline: 9px;
+   border-radius: 18px;
+}
+.crowth-pizza{
+   
+}
+
+
+}
+@media (min-width: 576px) {
+  
+}
+@media (min-width: 768px) {
+ 
+}
+@media (min-width: 992px) {
+   nav ul{
+    background-color: white;
+    margin: 0%;
+   }
+
+}
+@media (min-width: 1200px) {
+    nav ul{
+        /* margin-left: 18px; */
+        background-color: white;
+       margin-left: 23px;
+    }
+}
