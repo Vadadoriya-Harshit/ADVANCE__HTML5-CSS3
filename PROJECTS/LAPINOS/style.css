@@ -600,7 +600,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 .container{
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-rows: auto;
 }
@@ -619,7 +619,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
    text-align: center;
    margin-top: 37px;
    margin-left: 33px;
- padding-top: 12px;
+  padding-top: 12px;
 }
 
 
@@ -627,7 +627,7 @@ td ul li{
     display: inline;
     padding: 12px;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- border: 1px solid black; 
+ /* border: 1px solid black;  */
 border-radius: 23px;
  margin-left:12px; 
 
@@ -639,7 +639,7 @@ td ul li a{
       line-height: 53px;
 }
 td ul{
-  padding-top: 23px;
+  /* padding-top: 23px; */
   margin-left: 12px;
 } 
 td ul li:hover{
@@ -650,20 +650,78 @@ td ul li:hover a{
     color: white;
 }
 footer{
-    width: 100%;
-    height: 230px;
-    border: 1px solid black;
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
     background-color: rgb(52, 102, 52);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 85% 15%;
 }
-.list1{
-    border: 1px solid black;
+.footer-top{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.list1 p{
+.footer-end{
+    /* border: 1px solid black; */
+    background-color: white;
+    text-align: center;
+}
+
+.footer-end p{
+    color: black;
+    line-height: 32px;
+   
+}
+.list-1{
+    /* border: 1px solid black */
+}
+.list-1 h1{
     color: white;
-    font-size: 25px;
-    text-indent: 33px;
-    padding-top: 12px;
+    font-size: 22px;
+    padding-left: 32px;
+    padding-top: 8px;
+}
+.list-1 p{
+    color: white;
+    padding-left: 32px;
+    font-weight: bold;
+}
+.list-1 ul{
+    margin-left: 43px;
+    list-style-type: none;
+}
+.list-1 ul li a{
+    color: white;
+   line-height: 34px;
+    text-decoration: none;
+}
+.img-set{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 50%;
+    margin-left: 33px;
+    display: grid;
+    margin-top: 12px;
     
 }
+.row1,.row2{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+}
+.row1 .col1,.row2 .col1{
+    /* border: 1px solid black; */
+    margin: 3px;
+}
+.icon-list{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.icon-list img{
+    /* filter: grayscale(1); */
+    cursor: pointer;
+}
+

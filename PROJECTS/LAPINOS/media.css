@@ -1,4 +1,7 @@
 @media (max-width: 575px) {
+   body{
+      overflow-x: hidden;
+   }
    header{
     grid-template-columns: 8.3fr 1.7fr;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -123,6 +126,7 @@
 .banner-4 img{
    object-fit: contain;
 }
+
 .banner-5{
    height: 450px;
 }
@@ -131,6 +135,24 @@
    height: auto;
    width: 90%;
    transform: translate(23px,23px);
+}
+footer{
+   grid-template-rows: 90% 10%;
+}
+.footer-top{
+   text-align: center;
+   grid-template-columns: 1fr;
+   margin-bottom: 42px;
+}
+.img-set{
+   transform: translateX(93px);
+}
+td ul{
+   margin-left: 3%;
+}
+
+td ul li{
+   margin-left: 0px;
 }
 
 
