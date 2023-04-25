@@ -1,0 +1,320 @@
+@media(max-width:500px){
+  body{
+    overflow-x: hidden;
+  }
+.banner-1 .banner-info{
+    height: 500px;
+}
+.banner-1::before{
+    top: 77%;
+    margin-left: 3px;
+}
+.banner-1::after{
+    top: 80%;
+}
+nav{
+    display:  none;
+}
+.banner-1 {
+    margin-bottom: 0;
+}
+
+.logo-area{
+    width: 50%;
+}
+.primay-header{
+    width: 100%;
+}
+.header-btn{
+    width: 50%;
+}
+
+.logo-area img{
+    width: 30%;
+    height: 90px;
+}
+.menu-bar{
+    display: block;
+  padding-right: 22px;
+}
+.menu-bar a{
+    color: white;
+}
+.header-btn button {
+    display: none;
+}
+.banner-1 .banner-info p{
+    text-indent: 103px;
+    font-size: 22px;
+}
+.banner-1 .banner-info h1{
+    font-size: 32px;
+}
+.banner-1 .banner-info h5 {
+    padding-inline: 32px;
+    font-size: 16px;
+   
+}
+.fa-bars{
+    font-size: 28px;
+padding-bottom: 32px;
+}
+.banner-1 .banner-info button {
+    transform: translateX(140px);
+    width: 200px;
+    height: 50px;
+    
+}
+/* section-2 */
+
+
+.special-offer p{
+    padding-inline: 0px;
+    text-align: center;
+}
+.off-card{
+    width: 50%;
+}
+/* glow text */
+.glowing-text{
+    background-size: 200% 200%;
+    background-position-y:-40px ;
+    margin-bottom: 0%;
+}
+
+.glowing-text h1{
+     font-size: 42px;
+    
+}
+/*about-agro  */
+.agro-info{
+    background: unset;
+}
+.more-about-agro{
+   margin-left: 35%;
+   margin-bottom: 22px;
+}
+.info-agro,.info-img,.info-content{
+    width: 100%;
+}
+.info-content p{
+    padding-left: 22px;
+}
+.info-agro p{
+    text-align: center;
+    padding-left: 0;
+}
+.description-section-1{
+    width: 100%;
+    height: 200px;
+  
+}
+.description-section-1 img{
+    margin-top: 45px;
+}
+.description-section-1 span{
+top: 54px;
+}
+.description-section-1 p{
+    top: 122px;
+}
+.section-title p{
+    padding-inline: 0px;
+}
+.section-bg img{
+    object-fit: contain;
+}
+.section-of-category{
+    height: auto;
+}
+.category-1{
+    height: auto;
+    flex-wrap: wrap;
+}
+.cat-item-1,.cat-item-2,.cat-item-3,.cat-item-4,.cat-item-5,.cat-item-6,.cat-item-8,.cat-item-9{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 23px;
+}
+.cat-item-7{
+    display: none;
+}
+.cat-item-1 button{
+    margin-left: 123px;
+}
+.cat-item-2 h1,.cat-item-9 h1{
+    position: absolute;
+    top: 42%;
+    left: 30%;
+  }
+  .cat-item-3 h1{
+      position: absolute;
+      top: 42%;
+      left: 25%;
+    }
+    .cat-item-4 h1{
+      position: absolute;
+      top: 42%;
+      left: 25%;
+    }
+    .cat-item-5 h1{
+      position: absolute;
+      top: 42%;
+      left: 17%;
+    }
+    .cat-item-8 h1{
+      position: absolute;
+      top: 42%;
+      left: 32%;
+    }
+/* article section */
+article h2{
+  font-size: 33px;
+}
+article span img{
+ display: none;
+}
+  article p{
+    padding-inline:44px;
+    font-size: 18px;
+  }
+  article i{
+  padding-inline: 32px;
+  font-size: 22px;
+  }
+ .profile{
+    margin-left: -113px;
+ }
+ article h4{
+    margin-left: -120px;
+ }
+ .banner-2{
+    padding: 0%;
+ }
+ .banner-2-info{
+    width: 100%;
+    background: url(images/banner_bg_1.png);
+    background-size: cover;
+      
+ }
+ .banner-2-bg{
+    /* width: 100%; */
+    display: none;
+ }
+ .banner-2-info button{
+    margin-left: 173px;
+ }
+ .banner-2-info h1{
+    color: aqua;
+ }
+ .banner-2-info span{
+    color:darkgrey;
+ }
+ .banner-2-info p{
+    color: black;
+ }
+ .banner-2-info h2{
+    color: green;
+ }
+ .container{
+    margin-top: 32px;
+ }
+.container-heading p{
+    padding-inline: 0px;
+}
+.container-row{
+    flex-wrap: wrap;
+}
+.container-col,.container-col2,.container-col3{
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 223px;
+}
+.child-col{
+width: 360px;
+}
+.child-col button{
+    margin-left: 94px;
+}
+.companies{
+    margin-top: 70px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.cards,.cards2{
+    width: 100%;
+}
+.get-in-touch{
+    
+}
+
+.get-in-touch p{
+    padding-inline: 0px;
+    
+}
+.footer-form{
+    transform: translateX(0px);
+    padding-left: 0px;
+}
+input[type="text"],input[type="email"]{
+    width: 353px;
+    height: 43px;
+}
+input[type="address"]{
+    width: 100%;
+    height: 153px;
+}
+.get-in-touch h1{
+    font-size: 43px;
+}
+
+.get-in-touch p{
+    padding-inline: 22px;
+}
+.get-in-touch button{
+    width: 100%;
+    height: 52px;
+}
+.footer-form{
+   margin-left: 45px;
+}
+.footer-form button{
+    margin-left: 35px;
+}
+.footer-top{
+    height: auto;
+    flex-wrap: wrap;
+}
+.footer-info p{
+    padding-inline: 55px;
+}
+.footer-logo,.footer-info,.share-icons{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.email-section{
+    width: 100%;
+}
+.email-section h1{
+    font-size: 20px;
+    text-align: center;
+}
+.email-section input{
+    margin-left: 77px;
+}
+.footer-bottum p{
+    padding-top: 24px;
+}
+.footer-bottum ul{
+    display: none;
+}
+
+
+
+
+
+
+
+}
