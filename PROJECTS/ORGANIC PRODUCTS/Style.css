@@ -37,7 +37,7 @@ header{
 }
 .share-icons ul{
     margin-top: 40px;
-    margin-left: 105px;
+    margin-left: 60px;
 }
 
 .share-icons ul li{
@@ -85,7 +85,6 @@ header{
 .user{
     width: 20px;
     height: 20px;
-    /* border: 1px solid black; */
     border-radius: 50%;
     transform: translate(115px,19px);
     display: flex;
@@ -109,6 +108,7 @@ nav ul li a{
 nav ul li{
     display: inline-block;
     padding-inline: 16px;
+    position: relative;
 }
 .lang-select{
     width: 22px;
