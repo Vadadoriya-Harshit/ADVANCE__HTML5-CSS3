@@ -32,9 +32,57 @@ header{
    top: 0%;
    left: 0%;
 }
-.share-icons{
-/* border: 1px solid black; */
+.dropdown-1{
+    width: 250%;
+    height: auto;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: absolute;
+    transition: 0.4s;
+    top: 100%;
+    text-align: center;
+    left: -22%;
+    display: none;
 }
+.dropdown-2{
+    width: 300%;
+    height: auto;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: absolute;
+    transition: 0.4s;
+    top: 100%;
+    text-align: center;
+    left: -22%;
+    display: none;
+}
+nav ul li:hover .dropdown-1,nav ul li:hover .dropdown-2{
+    display: block;
+}
+.dropdown-1 ul,.dropdown-2 ul{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.dropdown-1 ul li a,.dropdown-2 ul li a{
+    color: black;
+    width: 100%;
+}
+
+.dropdown-1 ul li,.dropdown-2 ul li{
+    /* background-color: #60be74; */
+    background-color: white;
+      padding-top: 13px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.dropdown-1 ul li:hover,.dropdown-2 ul li:hover{
+    background-color: #60be74;
+}
+
+
+
 .share-icons ul{
     margin-top: 40px;
     margin-left: 60px;
@@ -108,7 +156,10 @@ nav ul li a{
 nav ul li{
     display: inline-block;
     padding-inline: 16px;
+    padding-bottom: 22px;
     position: relative;
+    /* background-color: #2ba247; */
+  
 }
 .lang-select{
     width: 22px;
