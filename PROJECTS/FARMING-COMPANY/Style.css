@@ -101,7 +101,7 @@ nav {
     display: flex;
 }
 .menu-bar{
-    display: block;
+    display: none;
 }
 .header-icons {
     width: 6%;
@@ -138,6 +138,25 @@ nav {
     cursor: pointer;
 }
 
+.dropdown-1{
+    width: 200%;
+    height: auto;
+    background: rgb(66, 63, 63);
+    position: absolute;
+    top: 100%;
+    left: -22%;
+    display: none;
+}
+nav ul li:hover .dropdown-1{
+    display: block;
+}
+
+.dropdown-1 p{
+    padding: 12px;
+    text-align: center;
+}
+
+
 nav ul {
     margin-left: 283px;
     padding-top: 33px;
@@ -146,10 +165,9 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    /* background-color: aqua; */
-    /* padding: 23px; */
     padding: 23px 23px 12px 12px;
     position: relative;
+    padding-bottom: 23px;
 }
 
 nav ul li span {
