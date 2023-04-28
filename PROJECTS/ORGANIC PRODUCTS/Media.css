@@ -81,10 +81,10 @@ header{
 
 .products-category ul{
     margin-left: 60px;
-    margin-top: 22px;
 }
 .categories{
     margin-top: 0px;
+    margin-bottom: 123px;
 }
 .category-row{
     grid-template-columns: 1fr;
@@ -110,9 +110,133 @@ header{
     width: 100%;
     margin-top: 22px;
 }
+.parts{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.parts h1{
+    font-size: 39px;
+    padding-top: 12%;
+}
 
+.information{
+    grid-template-columns: 1fr;
+    grid-template-rows: 170px 170px 170px 170px;
+}
+.banner-2{
+  grid-template-columns: 1fr;
+  grid-template-rows: 700px 700px;
+}
+.bg-info p{
+    padding-left: 52px;
+}
+.bg-info h1{
+    padding-left: 0px;
+    font-size: 44px;
+    padding-left: 40px;
+}
+.bg-info span{
+    padding-left: 0px;
+}
+.bg-info img{
+    margin-top: 12px;
+    margin-left: 88px;
+  }
+  .bg-info button{
+    margin-left: 148px;
+    margin-top: 22px;
+  }
+  .client-carousel{
+    grid-template-columns: 1fr;
+    grid-template-rows: 160px 160px 160px 160px 160px;
+  }
+.banner-3-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px 555px;
+}
+.banner-3-info p{
+    padding-left: 0px;
+    text-align: center;
+    font-size: 19px;
+    background-position: 138px 78px;
+}
 
+.banner-3-info h1{
+    font-size: 45px;
+    margin-bottom: 223px;
+}
+.banner-3-info span{
+   padding-right: 3px;
+}
+.banner-3-info ul{
+    top: 29%;
+    left: 20%
+}
+.banner-3-info b{
+    padding-right: 2px;
+    padding-left: 103px;
+}
+.banner-3-info button{
+    margin-left: 153px
+}
 
+.banner-3-img{
+    background-position:-19px center;
+    background-size: 115% 90%
+}
+.banner-3 span img{
+    visibility: hidden;
+}
+.banner-3-img img{
+    visibility: hidden;
+}
+.banner-3-img{
+    background-position-y: 83px;
+}
+.Testimonials-content-2,.Testimonials-content-3{
+    display: none;
+}
+.Testimonials p{
+    background-position-x: 183px;
+}
+.Testimonials-content-1{
+    width: 100%;
+    left: 0%;
+}
+.photo{
+    top: -19%;
+    left: 30%;
+}
+.shop-slider{
+    grid-template-columns: 1fr;
+    grid-template-rows: 253px 253px 253px 253px 253px;
+}
+.slide-1{
+    margin-bottom: 23px;
+  
+}
+footer{
+    grid-template-rows: auto auto;
+}
+.footer-top{
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 309px 300px 340px;
+}
+
+.footer-top ul{
+    margin-left: 155px;
+}
+.footer-top img{ 
+    margin-left: 134px;
+}
+.footer-top p{
+    padding-left: 163px;
+    text-align: start;
+}
+.footer-top input,.footer-top button{
+    margin-left: 101px;
+   
+}
 
 
 
