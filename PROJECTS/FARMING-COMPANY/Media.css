@@ -291,6 +291,7 @@ input[type="address"]{
 .footer-logo,.footer-info,.share-icons{
 width: 100%;
 display: flex;
+padding-left: 0%;
 justify-content: center;
 align-items: center;
 }
@@ -310,6 +311,7 @@ align-items: center;
 .footer-bottum ul{
     display: none;
 }
+
 
 
 

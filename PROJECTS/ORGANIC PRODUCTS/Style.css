@@ -28,9 +28,7 @@ header{
     display: grid;
     grid-template-columns: 2.5fr 3fr 2.5fr;
     grid-template-rows: 100%;
-   position: sticky;
-   top: 0%;
-   left: 0%;
+    z-index: 1;
 }
 .dropdown-1{
     width: 250%;
@@ -540,9 +538,9 @@ transition: 0.4s;
    border: none;
    font-weight: bolder;
    color: white;
-background-color: black;
-transition: 0.4s;
- cursor: pointer;
+    background-color: black;
+    transition: 0.4s;
+    cursor: pointer;
 }
 .bg-info button:hover{
     background-color: white;
@@ -722,13 +720,14 @@ transition: 0.4s;
 }
 .Testimonials-content-1,.Testimonials-content-2,.Testimonials-content-3{
     width: 370px;
+    z-index: 99;
     height: 391px;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: absolute;
     top: 70%;
     left: 3%;
-
+   
 }
 .Testimonials-content-2{
     left: 35%;
@@ -741,6 +740,7 @@ transition: 0.4s;
     font-size: 17px;
     padding-top: 100px;
     line-height: 33px;
+    background: unset;
     padding-inline: 52px;
     text-align: center;
 }
@@ -761,7 +761,38 @@ transition: 0.4s;
     position: absolute;
     top: -19%;
     left: 27%;
+    z-index: 99;
 }
+.green-effect{
+    width: 100%;
+    height: 4px;
+    background-color: #60be74;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: -2;
+}
+
+ .Testimonials-content-1:hover .green-effect,.Testimonials-content-2:hover .green-effect,.Testimonials-content-3:hover .green-effect{
+  /* margin-top: -100%; */
+  transform-origin: bottom top;
+  height: 391px;
+  transition: 0.4s;
+}
+.Testimonials-content-1:hover.Testimonials-content-1 span,.Testimonials-content-1:hover.Testimonials-content-1 p,.Testimonials-content-1:hover.Testimonials-content-1 b{
+  color: white;
+}
+.Testimonials-content-2:hover.Testimonials-content-2 span,.Testimonials-content-2:hover.Testimonials-content-2 p,.Testimonials-content-2:hover.Testimonials-content-2 b{
+    color: white;
+  }
+  .Testimonials-content-3:hover.Testimonials-content-3 span,.Testimonials-content-3:hover.Testimonials-content-2 p,.Testimonials-content-3:hover.Testimonials-content-3 p{
+    color: white;
+  }
+  .Testimonials-content-3:hover.Testimonials-content-3 b,.Testimonials-content-3:hover.Testimonials-content-2 b,.Testimonials-content-3:hover.Testimonials-content-3 b{
+    color: white;
+  } 
+
+
 .Testimonials-content-1 .photo{
     background: url(IMAGES/h2.png);
 }
@@ -961,12 +992,7 @@ margin-top: 100px;
    margin-top: 123px;
    margin-left: -223px;
 }
-header{
-  position: sticky;
-  top: 0%;
-  left: 0%;
-  z-index: 99;
-}
+
 
 
 
