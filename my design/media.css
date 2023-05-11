@@ -1,0 +1,16 @@
+@media(max-width:500px)
+{
+    .header-top .top-menu{
+        width: 60%;
+        height: inherit;
+        border: 1px solid black;
+        background-color: red;
+    }
+    .top-right-menu{
+        width: 40%;
+        height: inherit;
+        border: 0px solid black;
+        background-color: yellow;
+
+    }
+}

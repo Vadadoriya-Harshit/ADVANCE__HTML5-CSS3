@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to left,orange,skyblue);
+        }
+        .main{
+           width: 300px;
+           height: 400px;
+           border: 12px solid blue;
+           margin: 43px auto;
+         position: relative;
+           transform: rotate(0deg);
+           overflow: hidden;
+           transition: 0.8s;
+        }
+        .main::after{
+            content: "";
+            height: 600px;
+            width: 600px;
+            background: linear-gradient(45deg,blue,yellow,green,orange,pink,skyblue,aqua,purple,gray,red);
+            position: absolute;
+            top: -20%;
+            left: -50%;
+
+        }
+        .main:hover::after{
+           transform: rotate(365deg);
+           transition: 2s;
+
+        }
+     
+.d{
+    width: 250px;
+    height: 350px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+   z-index: 2;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+      <div class="d"></div>
+    </div>
+    
+
+    </div>
+   
+</body>
+</html>
