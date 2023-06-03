@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="http-equiv" content="4s url()">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+   
+
+</head>
+<body onscroll="scroll()">
+    <!-- banner-1-start -->
+   <div class="banner-1">
+    <div class="banner-1-info">
+         <div class="info-content">
+           <div class="share-list">
+            <ul>
+               <li><a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+               </a></li>
+               <li><a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+               </a></li>
+               <li><a href="#">
+                  <i class="fa-brands fa-square-instagram"></i>
+               </a></li>
+               <li><a href="#">
+                  <i class="fa-brands fa-linkedin"></i>
+               </a></li>
+            </ul>
+          </div>
+          <div class="content-read">
+            <h1>Hello I'm</h1>
+            <h1>Ayush Parmar</h1>
+            <p>Professional Freelance Web Designer</p>
+            <span>A web developer transforms digital ideas into engaging and visually appealing websites through coding, design, and expertise in programming languages and frameworks.</span>
+            <button id="myBtn">Hire Me</button>
+           </div>
+      </div>
+       </div>
+         <div class="banner-1-img">
+     
+        </div>
+        <header id="b1">
+         <div class="logo-area">
+      <img src="Images/logo.svg" alt="">
+         </div>
+         <nav>
+      <ul>
+           <li><a href="#">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#skills">Services</a></li>
+         <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Pricing</a></li> 
+         <li><a href="#">Experience</a></li> 
+      </ul>
+       <li> <i class="fa-solid fa-bars"></i></li>
+         </nav>
+        </header>
+      </div>
+    <!-- banner-1-end -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" id="close">&times;</span>
+       <form action="">
+         <h1 align="center">Contact To Us....</h1><br>
+          <input type="text" name="" id="" placeholder="Company Name..."><br>
+          <input type="email" name="" id="" placeholder="Email..."><br>
+          <input type="tel" name="" id="" placeholder="Contact-Number..."><br>
+           <textarea name="address" id="" cols="30" rows="10" placeholder="Address Here....."></textarea><br>
+           <button>submit</button>
+
+       </form>
+    
+    
+      </div>
+    
+    </div>
+     <!-- about-section-start -->
+     <section class="about-me" id="about"> 
+     <div class="about-shape">
+        <div class="shape" id="canvasContainer">
+         <img src="Images/hhero.webp" alt="">
+        </div>
+     </div>
+     <div class="skill-section">
+     <h4>About</h4>
+     <h1>Why You Hire Me?</h1>
+     <hr>
+     <p>You should hire me because I am a highly skilled and motivated professional who consistently delivers exceptional results. I possess the relevant experience, knowledge, and expertise necessary for the role. With a strong work ethic and a commitment to excellence, I am dedicated to contributing to the success of your organization.</p>
+     <p>
+      Passionate, driven, and dedicated, I am a candidate with a diverse skill set and a strong desire to excel in every task I undertake. Throughout my professional journey, I have developed a reputation for delivering exceptional results and consistently exceeding expectations. Here are the reasons why you should hire me:
+     </p>
+  
+     </div>
+     </section>
+     <!-- about-section-end -->
+      <!-- skills-department-start -->
+      <div class="skills-department" id="skills">
+        <div class="skills-title">
+        <h1><span>My</span> Skills</h1>
+        </div>
+           <div class="about-skills">
+            <div class="skill-row-1">
+            <div class="skill-card">
+              <img src="Images/html5.png" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/css3.png" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/bbotstrap.jpeg" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/js4.png" alt="">
+            </div>
+          
+          
+           </div>
+           <div class="skill-row-2">
+            <div class="skill-card">
+              <img src="Images/jq2.png" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/react.png" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/nodejs.png" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/net3.png" alt="">
+            </div>
+           </div>
+           <div class="skill-row-1">
+            <div class="skill-card">
+              <img src="Images/s.jpeg" alt="">
+            </div>
+            <div class="skill-card">
+              <img src="Images/postgredsql.jpeg" alt="">
+            </div>
+           </div>
+        </div>
+      </div>
+      <!-- skills-department-end -->
+     <script>
+
+    function scroll()
+{
+  var scrollevent = document.getElementById('b1');
+  const coollection = document.getElementsByTagName("li");
+  if(document.documentElement.scrollTop > 10)
+    {
+      scrollevent.classList.add('div_header');
+    }
+    else{
+     scrollevent.classList.remove('div_header');
+    }
+   //  model
+   
+}
+   // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementById('close');
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+
+}
+function about()
+{
+    var about = document.getElementById('aboutsection');
+     about.style.background="red";
+}
+ </script>
+</body>
+</html> 
+ 

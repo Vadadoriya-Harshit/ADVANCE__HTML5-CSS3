@@ -1,0 +1,19 @@
+@media (max-width:500px)
+{
+ .logo-area,nav{width: 50%;}
+ nav ul{display: none;}
+ nav{justify-content: right;}
+.fa-bars{visibility: visible;transform: translateX(-22px);}
+.banner-1 .banner-1-info,.banner-1 .banner-1-img{ width: 100%;}
+ .banner-1 .banner-1-img{ height: 300px;background-size:50% 100%;background-position: center;
+ }
+ /* about-section-start*/
+ .about-me{
+    grid-template-columns: 1fr;
+    grid-template-rows: 550px 550px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+ /* about-section-end*/
+
+}

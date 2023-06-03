@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="refresh" content="4; url='Index2.html'">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    .main{
+      width: 90px;
+      height: 90px;
+      /* border: 1px solid black; */
+      margin: 223px auto;
+      position: relative;
+      border-top: 10px solid red;
+      border-radius: 50%;
+      animation: play 2s infinite linear;
+     
+    }
+    .a{
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      top: 10%;
+      left: 12%;
+      border-top: 10px solid green;
+      border-radius: 50%;
+      animation: play1 2s infinite linear;
+      
+    }
+    .b{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 13%;
+      left: 14%;
+      border-top: 10px solid blue;
+      border-radius: 50%;
+      animation: play3 1s infinite linear;
+
+    }
+    @keyframes play{
+      from{
+        transform: rotate(0deg);
+
+      }
+      to{
+        transform: rotate(365deg);
+
+      }
+      
+    }
+    @keyframes play3{
+      from{
+        transform: rotate(0deg);
+
+      }
+      to{
+        transform: rotate(365deg);
+
+      }
+      
+    }
+    @keyframes play1{
+      from{
+        transform: rotate(360deg);
+
+      }
+      to{
+        transform: rotate(-360deg);
+
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="a">
+      <div class="b">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
