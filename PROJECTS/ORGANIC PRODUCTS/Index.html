@@ -7,10 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Media.css">
+    <script src="SCRIPT.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body onload="load()">
     <!-- header start-->
   <header>
      <div class="header-top">
@@ -318,19 +319,19 @@
     <div class="compani-info">
       <div class="information">
          <div class="parts">
-            <h1>8,080</h1>
+            <h1 id="r1" class="r1" onclick="test()">8,080</h1>
             <p>Organic Products Available</p>
          </div>
          <div class="parts">
-            <h1>697</h1>
+            <h1 id="r2">697</h1>
             <p>Healthy Recipes</p>
          </div>
          <div class="parts">
-            <h1>440</h1>
+            <h1 id="r3">440</h1>
             <p>Expert Team Members</p>
          </div>
          <div class="parts">
-            <h1>2,870</h1>
+            <h1 id="r4">2,870</h1>
             <p>Satisfied Customers</p>
          </div>
       </div>
@@ -360,7 +361,6 @@
       </div>
       <div class="carousel-item1">
          <img src="IMAGES/lo2.png" alt="">
-
 
       </div>
       <div class="carousel-item1">
@@ -560,5 +560,7 @@
     
       </div>
     </footer>
+    <script src="SCRIPT.js">
+   </script>
 </body>
 </html>
