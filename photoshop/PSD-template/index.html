@@ -1,0 +1,497 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@100&family=Playfair:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  </head>
+  <body>
+  <!-- header-start -->
+  <header>
+  <nav>
+  <div class="nav-right">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Menu</a></li>
+  </ul>
+  </div>
+  <div class="nav-brand">
+  <img src="images/logo.png" alt="">
+  </div>
+  <div class="nav-left">
+  <ul>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  </div>
+  </nav>
+  <span class="menu-bar" onclick="openNav()">
+  <i class="fa-solid fa-bars"></i>
+  </span>
+  <!-- slide-Menu-start -->
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul>
+  <li><a href="#" onclick="closeNav()">Home</a></li>
+  <li><a href="#about" onclick="closeNav()">About</a></li>
+  <li><a href="#skills" onclick="closeNav()">Skills</a></li>
+  <li><a href="#portfolio" onclick="closeNav()">Portfolio</a></li>  
+  <li><a href="#work" onclick="closeNav()">Experience</a></li> 
+  <li><a href="#contact" onclick="closeNav()">Contact</a></li> 
+  </ul>
+  </div>
+  <!-- slide-Menu-close -->
+
+  </header>
+  <!-- header-close -->
+  <!-- banner-1-start -->
+  <div class="banner-1">
+  <div class="box">
+  <img src="images/slide-1.png" alt="">
+  <img src="images/slide-2.jpeg" alt="">
+  <img src="images/slide-3.jpeg" alt="">
+  <img src="images/slide-4.jpeg" alt="">
+  <img src="images/slide-5.jpeg" alt="">
+  </div>
+  <div class="banner-1-info">
+  <div>
+  <h1>Morning</h1>
+  <h1>Coffee Routine</h1>
+  <div class="content" >
+  <p>
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  </div>
+  <button>
+  Get Started
+  </button>
+  </div>
+  </div>
+  </div>
+  <!-- banner-1-close -->
+  <!-- offer-section-start -->
+  <section class="offers">
+  <div class="Coffee-brand">
+  <img src="images/brand.png" alt="">
+  </div>
+  <div class="offers-info">
+  <div class="offers-content">
+  <span>Gift Voucher</span>
+  <h2>1 Free Cup Of Coffee</h2>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+  <button>
+  Claim Voucher Here
+  </button>
+  </div>
+
+  </div>
+
+  </section>
+  <!-- offer-section-close -->
+  <!-- best brand section-start -->
+  <article class="best-brand">
+  <div class="brand-image">
+  <img src="images/tea.png" alt="">
+  </div>
+  <div class="brand-info">
+  <div>
+  <h2>Best Coffee</h2>
+  <h2>Brand in NYC</h2>
+  <div class="story-content">
+  <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Volutpat lacus laoreet non curabitur gravida. Dictum sit amet justo donec enim. Eu scelerisque felis imperdiet proin fermentum leo vel. Tincidunt lobortis feugiat vivamus at augue. Porttitor massa id neque aliquam vestibulum.</p>
+  <a href="#">Read Story</a>
+  </div>
+  </div>
+  </div>
+  </article>
+  <!-- best brand section-close -->
+  <!-- Menu-section-start -->
+  <section class="menu">
+  <h2>Menu</h2>
+  <div class="menu-info">
+  <p>
+  Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. 
+  </p>
+  </div>
+  <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c3.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Long Black</h2>
+    <p>
+    Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+    </p>
+    <button>
+    Order Now
+    </button>
+  </div>
+  </div>
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c2.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Long Black</h2>
+
+    <p>
+      Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+      </p>
+      <button>
+      Order Now
+      </button>
+  </div>
+  </div>
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c1.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Americano</h2>
+
+    <p>
+      Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+      </p>
+      <button>
+      Order Now
+      </button>
+  </div>
+  </div>
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c3.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Long Black</h2>
+    <p>
+    Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+    </p>
+    <button>
+    Order Now
+    </button>
+  </div>
+  </div>
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c2.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Americano</h2>
+    
+    <p>
+      Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+      </p>
+      <button>
+      Order Now
+      </button>
+  </div>
+  </div>
+  <div class="cards swiper-slide">
+  <div class="card-img">
+  <img src="images/c1.png" alt="">
+  </div>
+  <div class="card-info">
+  <h2>Long Black</h2>
+    
+    <p>
+      Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+      </p>
+      <button>
+      Order Now
+      </button>
+  </div>
+  </div>
+  </div>
+  <div class="swiper-pagination"></div>
+  </div>
+  </section>  
+  <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  </section>
+  <!-- store-section-store -->
+  <div class="store-section">
+  <div class="store-titile">
+  <h2>Store</h2>
+  <div class="store-content">
+  <p>
+  Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. 
+  </p>
+  </div>
+  </div>
+  <div class="store-cards-section">
+  <div class="store-card">
+  <div class="store-card-img">
+  <img src="images/store card-1.png" alt="">
+  </div>
+  <div class="store-card-info">
+  <div class="Corpertum-btn">
+  <button>
+  Corpertum
+  </button>
+  </div>
+  <div class="store-content">
+  <p class="content-text">
+  A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.
+  </p>
+  <button class="Visit-btn">
+  Visit Now
+  </button>
+  </div>
+  </div>
+  </div>
+  <div class="store-card">
+  <div class="store-card-img">
+  <img src="images/store-card-2.png" alt="">
+  </div>
+  <div class="store-card-info">
+  <div class="Corpertum-btn">
+  <button>
+  Corpertum
+  </button>
+  </div>
+  <div class="store-content">
+  <p class="content-text">
+  A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.
+  </p>
+  <button class="Visit-btn">
+  Visit Now
+  </button>
+  </div>
+  </div>
+  </div>
+  <div class="store-card">
+  <div class="store-card-img">
+  <img src="images/store-card-3.png" alt="">
+
+
+  </div>
+  <div class="store-card-info">
+  <div class="Corpertum-btn">
+  <button>
+  Corpertum
+  </button>
+  </div>
+  <div class="store-content">
+  <p class="content-text">
+  A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.
+  </p>
+  <button class="Visit-btn">
+  Visit Now
+  </button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- store-section-close -->
+  <!-- company-profile-start -->
+  <div class="company-profile">
+  <div class="part-1">
+  <iframe src="images/video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="part-2">
+  <div class="part-2-content">
+  <h2>
+  Company Profile
+  </h2>
+  <div>
+  <p class="plain-text">
+  Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. 
+  </p>
+  <div class="section-icons">
+  <ul>
+  <li>
+  <div class="share-icon">
+  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+  </li>
+  <li>
+  <div class="share-icon">
+  <a href="#">
+    <i class="fa-brands fa-instagram"></i>
+  </a></div>
+  </li>
+  <li>
+  <div class="share-icon">
+  <a href="#">
+    <i class="fa-brands fa-twitter"></i>
+  </a>
+  </div>
+  </li>
+  </ul>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  <!-- company-profile-close -->
+  <!-- map-area start-->
+  <div class="map-area">
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14687.735827717079!2d72.5559743!3d23.026197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688211660772!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contact-area">
+  <h2>Contact Us </h2>
+  <div class="form">
+  <input type="text" name="" id="" placeholder="Your Name"><br><br>
+  <input type="text" name="" id="" placeholder="Gender"><br><br>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+  <button>
+  Send Message
+  </button>
+  </div>
+  </div>
+  </div>
+  <!-- map-area close-->
+  <!-- footer-start -->
+  <footer>
+  <div class="footer-logo">
+  <img src="images/footer-logo.png" alt="">
+  </div>
+  <div class="link1">
+  <span>Your Company</span>
+  <p>
+  Halimun Street 25
+  Jakarta, Indonesia
+  12850
+  </p>
+  <h3>
+  www.yourdomain.com
+  </h3>
+  </div>
+  <div class="link2">
+  <span>Sitemap</span>
+
+  <ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">Home</a></li>
+  <li><a href="">Blog</a></li>
+  <li><a href="">Menu</a></li>
+  <li><a href="">Store</a></li>
+  <li><a href="">Contact</a></li>
+  </ul>
+  </div>
+  <div class="link3">
+  <span>Loren Ipsum</span>
+  <ul>
+  <li><a href="#">Neque</a></li>
+  <li><a href="#">suspendisse</a></li>
+  <li><a href="#">Dictum</a></li>
+  <li><a href="#">Porttitor</a></li>
+  <li><a href="#">Tincidunt</a></li>
+  <li><a href="#">Enim lobortis</a></li>
+  </ul>
+  </div>
+  <div class="link4">
+  <span>Sit Amet</span>
+  <ul>
+  <li><a href="">Neque</a></li>
+  <li><a href="">suspendisse</a></li>
+  <li><a href="">Dictum</a></li>
+  <li><a href="">Porttitor</a></li>
+  <li><a href="">Tincidunt</a></li>
+  <li><a href="">Enim lobortis</a></li>
+  </ul>
+  </div>
+  <div class="coppyright-section">
+  <img src="images/logo.png" alt="">
+  <p>Copyright ©  2020 Freepik
+  Company S.L. All rights reserved.</p>
+  <div class="footer-icons">
+  <ul>
+  <li>
+  <div class="share-icon">
+  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+  </li>
+  <li>
+  <div class="share-icon">
+  <a href="#">
+    <i class="fa-brands fa-instagram"></i>
+  </a></div>
+  </li>
+  <li>
+  <div class="share-icon">
+  <a href="#">
+    <i class="fa-brands fa-twitter"></i>
+  </a>
+  </div>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </footer>
+  <!-- footer-close -->
+  <script>
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  }
+  var side = document.getElementById("mySidenav");
+  function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  }
+  
+
+  let img_arr = document.querySelectorAll('.banner-1 .box img');
+  let currentIndex = 0;
+  let intervalId;
+
+  function slideImages(n) {
+  currentIndex = currentIndex + n;
+
+  if (currentIndex < 0) {
+  currentIndex = img_arr.length - 1;
+  img_arr[currentIndex].style.transition = "none";
+  } else if (currentIndex >= img_arr.length) {
+  currentIndex = 0;
+  }
+
+  for (let i = 0; i < img_arr.length; i++) {
+  img_arr[i].style.transform = `translateX(-${currentIndex * 100}%)`;
+  img_arr[i].style.transition = "1s";
+  }
+  }
+
+  function startAutoSlide() {
+  intervalId = setInterval(function() {
+  slideImages(1);
+  }, 3000); // Change the duration (in milliseconds) as needed
+  }
+
+  function stopAutoSlide() {
+  clearInterval(intervalId);
+  }
+
+  startAutoSlide();
+
+
+  // Start auto sliding on page load
+  var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 2.5,
+  spaceBetween: 20,
+  pagination: {
+  el: ".swiper-pagination",
+  clickable: true,
+  },
+  autoplay: {
+  delay: 3000, // Adjust the delay (in milliseconds) between slides
+  },
+  });
+
+  </script>
+  </body>
+  </html>
